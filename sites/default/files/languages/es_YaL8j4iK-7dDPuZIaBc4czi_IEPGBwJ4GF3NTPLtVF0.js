@@ -1,0 +1,1 @@
+Drupal.locale = { 'pluralFormula': function ($n) { return Number(($n!=1)); }, 'strings': {"":{"Hide layout designer":"Ocultar el maquetador de dise\u00f1o","Show layout designer":"Mostrar maquetador de dise\u00f1o.","Edit":"Editar"}} };
