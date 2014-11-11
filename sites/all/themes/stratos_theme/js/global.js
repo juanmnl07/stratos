@@ -10,6 +10,12 @@ jQuery(document).ready(function(){
 	}
 	var box = jQuery("div[class^=roll-over]"); 
 	box.show().animate({"transform": "scale(0,0)"});
+	
+	jQuery(".box-cotainer").hover(function() {
+		
+	}, function(){
+		
+	});
 
 
 });
