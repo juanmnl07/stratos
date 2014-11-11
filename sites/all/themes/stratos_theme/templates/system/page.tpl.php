@@ -94,9 +94,12 @@
 <?php endif; // end Below Content ?>
 
 <footer class="footer" role="contentinfo">
-  <div class="">
-    <?php print render($page['footer']); ?>
+    <div id="logo-footer">
+      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo-footer">
+        <img src="<?php print $base_path; ?>sites/all/themes/stratos_theme/logo-footer.png" alt="<?php print t('Home'); ?>" />
+      </a>
   </div>
+    <?php print render($page['footer']); ?>
 </footer>
 
 <?php if ($page['closure']): ?>
