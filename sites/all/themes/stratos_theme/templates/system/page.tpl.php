@@ -10,15 +10,6 @@
  */
 ?>
 <header class="header" role="banner">
-  <?php if ($messages): ?>
-  <div class="messages-wrapper">
-    <div class="messages-content">
-      <?php print $messages; ?>
-    </div>
-    <a href="#" id="messages-toggle"><?php print t('Close');?></a>
-  </div>
-  <?php endif; ?>
-
     <?php if ($page['utility_bar']): ?>
      <div class="utility-bar">
         <div class="grid">
@@ -56,6 +47,16 @@
 
     <a id="main-content"></a>
     <div class="main" role="main">
+
+        <?php if ($messages): ?>
+          <div class="messages-wrapper">
+            <div class="messages-content">
+              <?php print $messages; ?>
+            </div>
+            <a href="#" id="messages-toggle"><?php print t('Close');?></a>
+          </div>
+        <?php endif; ?>
+
       <?php print render($title_prefix); ?>
       <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
       <?php print render($title_suffix); ?>
