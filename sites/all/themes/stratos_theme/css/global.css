@@ -14,7 +14,7 @@ body {
 --------------------------------------------- */
 .header .grid,
 .main-content,
-.footer {
+.footer .grid {
   max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -107,8 +107,7 @@ nav#block-system-main-menu ul.menu li.leaf a.active{
 @media only screen and (min-width: 62.5em) { /* > 1000 */
 
   .header .grid,
-  .main-content
-  {
+  .main-content{
     max-width: 62.5em;
   }
 
