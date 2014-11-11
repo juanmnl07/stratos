@@ -85,14 +85,16 @@
 
   <?php if ($page['sidebar_second']): ?>
     <div id="sidebar-second" class="">
-      <?php print render($page['sidebar_second']); ?>
+        <?php print render($page['sidebar_second']); ?>
     </div> <!-- /.section, /#sidebar-second -->
   <?php endif; ?>
 </div>
 
 <?php if ($page['below_content']): ?>
   <section class="below-content">
-    <?php print render($page['below_content']); ?>
+    <div class="grid">
+      <?php print render($page['below_content']); ?>
+    </div>
   </section>
 <?php endif; // end Below Content ?>
 
@@ -104,7 +106,7 @@
       </a>   
   </div>
     <?php print render($page['footer']); ?>
- 
+
     </div>    
 </footer>
 

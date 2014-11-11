@@ -14,6 +14,7 @@ body {
 --------------------------------------------- */
 .header .grid,
 .main-content,
+.below-content .grid,
 .footer .grid {
   max-width: 100%;
   margin: 0 auto;
@@ -170,6 +171,13 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 .footer .grid .block-menu-block .content ul li a.active{
 	font-weight:700;
 }
+
+/* Added by Juan */
+.below-content .block {
+  width: 100%;
+  float: left;
+}
+
 /****/
 
 /*
@@ -208,6 +216,7 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 
   .header .grid,
   .main-content,
+  .below-content .grid,
   .footer .grid{
     max-width: 62.5em;
   }
@@ -218,5 +227,10 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
   .one-sidebar #sidebar-first {
     width: 40%;
   }
+
+  .below-content #block-views-servicios-servicios-bloques-peq,
+  .below-content #block-block-3 {
+  width: 50%;
+}
 
 }
