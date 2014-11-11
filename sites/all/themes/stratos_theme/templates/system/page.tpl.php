@@ -18,13 +18,16 @@
     <a href="#" id="messages-toggle"><?php print t('Close');?></a>
   </div>
   <?php endif; ?>
-  <div class="grid">
-  <?php if ($page['utility_bar']): ?>
-    <div class="utility-bar">
-      <?php print render($page['utility_bar']); ?>
-    </div><!-- end utility bar -->
+
+    <?php if ($page['utility_bar']): ?>
+     <div class="utility-bar">
+        <div class="grid">
+           <?php print render($page['utility_bar']); ?>
+        </div>   
+     </div><!-- end utility bar -->
   <?php endif; ?>
 
+  <div class="grid">
 
   <?php if ($logo): ?>
     <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
@@ -94,12 +97,15 @@
 <?php endif; // end Below Content ?>
 
 <footer class="footer" role="contentinfo">
+  <div class="grid">
     <div id="logo-footer">
       <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo-footer">
         <img src="<?php print $base_path; ?>sites/all/themes/stratos_theme/logo-footer.png" alt="<?php print t('Home'); ?>" />
-      </a>
+      </a>   
   </div>
     <?php print render($page['footer']); ?>
+ 
+    </div>    
 </footer>
 
 <?php if ($page['closure']): ?>
