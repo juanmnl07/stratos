@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:600,800|Open+Sans);
 /*
   =BASE
 --------------------------------------------- */
@@ -34,6 +35,43 @@ body {
   float: right;
 }
 
+
+/* Andrey 11-11-2014 */
+
+nav#block-system-main-menu{
+}
+nav#block-system-main-menu ul.menu{
+	padding: 0px; margin: 0px;
+}
+nav#block-system-main-menu ul.menu li.leaf{
+	float:left;
+	list-style: none;
+	padding: 0px; margin: 0px;
+}
+nav#block-system-main-menu ul.menu li.leaf a{
+	display:block;
+	font-family: "Raleway", sans-serif;
+	font-weight:600;
+	font-size: 13px;
+	color: #808285;
+	text-transform:uppercase;
+	border: none;
+}
+nav#block-system-main-menu ul.menu li.leaf a.active{
+	font-weight:800;
+	color: #EA0028;
+}
+
+
+.footer{
+	background-color: #58595B;
+}
+.footer{
+	min-height: 280px;
+}
+
+/****/
+
 /*
   =MEDIA QUERIES
 --------------------------------------------- */
@@ -69,8 +107,8 @@ body {
 @media only screen and (min-width: 62.5em) { /* > 1000 */
 
   .header .grid,
-  .main-content,
-  .footer {
+  .main-content
+  {
     max-width: 62.5em;
   }
 
