@@ -86,6 +86,10 @@ function stratos_theme_preprocess_html(&$variables) {
     drupal_add_js(drupal_get_path('theme', 'stratos_theme') . '/js/respond.min.js', array('group' => JS_LIBRARY, 'weight' => -100));
   }
 
+  // Js Andrey
+  drupal_add_js('//code.jquery.com/ui/1.11.2/jquery-ui.js');
+  drupal_add_js(drupal_get_path('theme', 'stratos_theme') . '/js/jquery.transform2d.js', array('group' => CSS_SYSTEM, 'weight' => -100));
+
   // Use normalize.css
   if (theme_get_setting('normalize_css')) {
     drupal_add_css(drupal_get_path('theme', 'stratos_theme') . '/css/normalize.css', array('group' => CSS_SYSTEM, 'weight' => -100));

@@ -126,6 +126,19 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	color: #EA0028;
 }
 
+.title#page-title{
+	padding-top: 10px;
+	padding-bottom: 35px;
+	background-image: url('../images/linea_titulo.png');
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+	font-family: Raleway, sans-serif;
+	color: #00aced;
+	font-size: 35px;
+	font-weight: 800;
+	text-align: center;
+	text-transform: uppercase;
+}
 
 .footer{
 	background-color: #58595B;
@@ -171,11 +184,195 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 .footer .grid .block-menu-block .content ul li a.active{
 	font-weight:700;
 }
-
 /* Added by Juan */
 .below-content .block {
   width: 100%;
   float: left;
+}
+.main{
+	font-family:'Open Sans', sans-serif;
+	color: #58595B;
+	font-size: 15px;
+	
+}
+.main p{
+	line-height: 20px;
+}
+.main h2{
+	color: #EA0028;
+	text-transform:uppercase;
+	font-family: "Raleway", sans-serif;
+	font-size: 28px;
+	line-height: 30px;	
+}
+
+/* Andrey 11-11-2014 :: servicios-para-empresarios */
+
+#flexslider-1.flexslider{
+	background: none;
+	border: none;
+	margin: 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	position:relative;
+}
+
+#flexslider-1.flexslider .views-field-nothing{
+	position: relative;
+	width: 1000px;
+	margin: auto;
+	top: -535px;	
+}
+
+#flexslider-1.flexslider .banner-grande-caption{
+	width: 515px;
+	height: 305px;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	background-image: url('../images/bg_celeste_t.png');	
+}
+
+#flexslider-1.flexslider .banner-grande-caption p.titulo{
+	margin-bottom: 30px;
+	font-family: "Raleway", sans-serif;
+	color: white;
+	font-size: 28px;
+	line-height: 31px;
+	font-weight: 500;
+	padding-top: 0px;
+	margin-top: 0px;
+	text-transform: uppercase;	
+}
+
+#flexslider-1.flexslider .banner-grande-caption p.descripcion{
+	margin-bottom: 30px;
+	font-family:'Open Sans', sans-serif;
+	color: white;
+	font-size: 17px;
+	line-height: 23px;
+	font-weight: 400;	
+}
+#flexslider-1.flexslider .banner-grande-caption a{
+	font-family: "Raleway", sans-serif;
+	color: white;
+	font-size: 20px;
+	font-weight: 800;
+	padding-right: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-image: url('../images/bullet_link.png');	
+	background-position: right center;
+	background-repeat: no-repeat;
+	
+}
+
+ul.bullet_red li {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  background-image: url('../images/bullet_li.png');
+  background-position: 0px 50%;
+  background-repeat: no-repeat;
+  font-family:'Open Sans', sans-serif;
+  color: #58595b;
+  font-size: 15px;
+  line-height: 16px;
+}
+ul.bullet_red{
+  padding-left: 10px;
+}
+.main .view-servicios{
+	width: 100%;
+	height: 311px;	
+}
+.main .view-servicios .box-imagen-servicio{
+	width: 230px;
+	height: 144px;
+	float: left;
+	background-color: #00aced;
+}
+.main .view-servicios .views-row .box-cotainer{
+	/*position:relative;
+	width: 230px;
+	height: 144px;	*/
+}
+.main .view-servicios .views-row{
+	float:left;
+	display:block;
+}
+.main .view-servicios .box-imagen-servicio p{
+  margin-top: 100px;
+  font-family: Raleway, sans-serif;
+  color: white;
+  font-size: 19px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.main .view-servicios .box-imagen-servicio.b1 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-image: url('../images/icon_1_p.png');
+  background-position: 50% 10px;
+  background-repeat: no-repeat;
+}
+.main .view-servicios .box-imagen-servicio.b2 {
+  margin-bottom: 20px;
+  background-image: url('../images/icon_2_p.png');
+  background-position: 50% 10px;
+  background-repeat: no-repeat;
+}
+.main .view-servicios .box-imagen-servicio.b3 {
+  margin-right: 20px;
+  background-image: url('../images/icon_3_p.png');
+  background-position: 50% 11px;
+  background-repeat: no-repeat;
+}
+.main .view-servicios .box-imagen-servicio.b4 {
+  background-image: url('../images/icon_4_p.png');
+  background-position: 50% 10px;
+  background-repeat: no-repeat;
+}
+.main .view-servicios div[class^=roll-over]{
+	display: block;
+	width: 230px;
+	height: 144px;
+	background-color: #58595B;
+	padding-top: 5px;
+	position:relative;
+}
+.main .view-servicios div[class^=roll-over] a{
+	display:block;
+	float:left;
+	font-family: "Raleway", sans-serif;
+	font-size: 19px;
+	line-height: 15px;
+	text-align:center;
+	font-weight:800;
+	text-transform:uppercase;
+	color: #FFFFFF;
+	background-image: url("../images/linea_titulo_rollover.png");
+	background-repeat: no-repeat;
+	background-position: center 30px;
+	padding: 8px 4px 0px 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;		
+	position:absolute;
+}
+.main .view-servicios div[class^=roll-over] a p{
+	font-family:'Open Sans', sans-serif;
+	font-size: 14px;
+	text-transform:none;
+	font-weight:400;
+	
 }
 
 /****/
