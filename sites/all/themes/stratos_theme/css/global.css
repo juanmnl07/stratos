@@ -439,9 +439,75 @@ ul.bullet_red{
 	font-size: 14px;
 	line-height: 17px;
 	text-transform:none;
-	font-weight:400;
-	
+	font-weight:400;	
 }
+
+.not-front .main-content .breadcrumb{
+	float:right;
+	font-family:'Open Sans', sans-serif;
+	font-size: 15px;	
+	color: #58595B;
+}
+.not-front .main-content .breadcrumb a{
+
+}
+
+.panel-flexible .panel-flexible-inside .panels-flexible-row-first{
+	border-top: 1px solid #58595B;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.panel-flexible .panel-flexible-inside .panels-flexible-row-first .box_h {
+	width: 100%;
+	height: 185px;
+	padding: 25px 20px 10px;
+	border-bottom: 1px solid #00aced;
+	background-color: #f1f2f2;
+}
+.panel-flexible .panel-flexible-inside .panels-flexible-row-first .box_h_titulo {
+	display:block;
+	margin-bottom: 20px;
+	padding-left: 35px;
+	background-image: url('../images/bullet_home.png');
+	background-position: 0px 50%;
+	background-repeat: no-repeat;
+	font-family: Raleway, sans-serif;
+	color: #00aced;
+	font-size: 25px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.panel-flexible .panel-flexible-inside .panels-flexible-row-first .box_h_descripcion {
+	font-family:'Open Sans', sans-serif;
+	color: #58595b;
+	font-size: 15px;
+}
+
+.panel-flexible .panel-flexible-inside .seg-fila{
+	background-color: #F1F2F2;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home{
+	padding-right: 130px;
+}
+.panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home h2{
+	font-weight:bold;
+}
+.panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home a{
+	display:block;
+	width: 107px; height: 32px;
+	font-family: "Raleway", sans-serif;
+	font-size: 15px;
+	line-height: 32px;
+	text-align:center;
+	font-weight:500;
+	text-transform:uppercase;
+	color: #EA0028;
+	border: solid 2px #EA0028;
+}
+
 
 #block-block-4{
 	height: 118px;
@@ -462,7 +528,7 @@ ul.bullet_red{
 	font-family: "Raleway", sans-serif;
 	color: #FFF;
 	text-align:center;
-	line-height: 50px;
+	line-height: 45px;
 	font-size: 20px;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -476,20 +542,93 @@ ul.bullet_red{
 	text-transform:uppercase;
 	color: #FFFFFF;
 	float:left;
+	margin: 0px; padding: 0px;
 }
 
+#block-block-5{
+	background-color: #F1F2F2;
+	background-image: url("../images/bg_recuadros.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-bottom: 70px;
+}
 #block-block-5 #bloque-comunidad{
-	padding: 0px 50px;
+	/*padding: 0px 50px;*/
 }
 #block-block-5 #bloque-comunidad p{
 	font-size: 19px;
 	line-height: 21px;
 	text-align:center;
 	color: #808285;
+	padding: 0px 60px;
 	font-family:'Open Sans', sans-serif;
+}
+#block-block-5 #bloque-comunidad .logos-comunidad img{
+	margin-left: 10px;
+}
+
+.panel-flexible .panel-flexible-inside .panels-flexible-row-inside-first p{
+	text-align:center;
+	padding: 0px 50px; /* Problema en bloques primeros del home*/
+}
+
+.panel-flexible .panel-flexible-inside .Centrado{
+	padding-bottom: 50px;
+}
+.panel-flexible .panel-flexible-inside .Centrado .box_stratos {
+  width: 320px;
+  height: 310px;
+  margin-left: 15px;
+  padding-top: 180px;
+  padding-right: 20px;
+  padding-left: 20px;
+  float: left;
+  border-bottom: 1px solid #00aced;
+}
+.panel-flexible .panel-flexible-inside .Centrado .box_stratos.st1 {
+  margin-left: 0px;
+  background-image: url('../images/icon_1_stratos.png');
+  background-position: 50% 15px;
+  background-repeat: no-repeat;
+}
+.panel-flexible .panel-flexible-inside .Centrado .box_stratos.st2 {
+  background-image: url('../images/icon_2_stratos.png');
+  background-position: 50% 15px;
+  background-repeat: no-repeat;
+}
+.panel-flexible .panel-flexible-inside .Centrado .box_stratos.st3 {
+  background-image: url('../images/icon_3_stratos.png');
+  background-position: 50% 15px;
+  background-repeat: no-repeat;
+}
+.panel-flexible .panel-flexible-inside .Centrado .box_stratos_titulo {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: Raleway, sans-serif;
+  color: #00aced;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+.panel-flexible .panel-flexible-inside .Centrado .box_stratos_descript {
+  font-family:'Open Sans', sans-serif;
+  color: #808285;
+  font-size: 19px;
+  text-align: center;
 }
 
 
+.page-servicios-para-pymes .view-servicios .box-imagen-servicio.b1,
+.page-servicios-para-pymes .view-servicios .box-imagen-servicio.b2,
+.page-servicios-para-pymes .view-servicios .box-imagen-servicio.b3,
+.page-servicios-para-pymes .view-servicios .box-imagen-servicio.b4{
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+.page-servicios-para-pymes .view-servicios .box-imagen-servicio.b4{
+	margin-right: 0px;
+}
 
 /****/
 
