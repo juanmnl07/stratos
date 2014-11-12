@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700,800|Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800|Open+Sans);
 /*
   =BASE
 --------------------------------------------- */
@@ -221,10 +221,12 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 }
 
 #flexslider-1.flexslider .views-field-nothing{
-	position: relative;
+	position: absolute;
 	width: 1000px;
+	left: 0px;
+	right: 0px;
 	margin: auto;
-	top: -535px;	
+	top: 130px;	
 }
 
 #flexslider-1.flexslider .banner-grande-caption{
@@ -267,8 +269,70 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	text-transform: uppercase;
 	background-image: url('../images/bullet_link.png');	
 	background-position: right center;
-	background-repeat: no-repeat;
-	
+	background-repeat: no-repeat;	
+}
+.above-content{
+	position:relative;
+}
+#block-webform-client-block-2{
+	width: 448px;
+	height: 570px;
+	background-image: url('../images/bg_form.png');
+	position:absolute;
+	z-index: 999;
+	top: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px 30px;			
+}
+#block-webform-client-block-2 h2{
+	font-size: 32px;
+	color: #EA0028;
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align:center;	
+}
+
+#block-webform-client-block-2 .webform-client-form{
+}
+#block-webform-client-block-2 .webform-client-form .form-text{
+	width: 100%;
+	height: 55px;
+	border: 1px solid #9c9c9c;
+	font-family: "Raleway", sans-serif;
+	color: #808285;
+	font-size: 13px;
+	font-weight: 600;
+	padding-left: 10px;	
+}
+#block-webform-client-block-2 .webform-client-form .form-textarea{
+	height: 100px;
+	border: 1px solid #9c9c9c;
+	font-family: "Raleway", sans-serif;
+	color: #808285;
+	font-size: 13px;
+	font-weight: 600;
+	padding-left: 10px;
+	padding-top: 10px;		
+}
+#block-webform-client-block-2 .webform-client-form .form-submit{
+	display: block;
+	width: 221px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid #ea0028;
+	background-color: transparent;
+	font-family: Raleway, sans-serif;
+	color: #ea0028;
+	font-size: 24px;
+	font-weight: 500;
+	text-transform: uppercase;
+	cursor: pointer;
 }
 
 ul.bullet_red li {
@@ -285,26 +349,21 @@ ul.bullet_red li {
 ul.bullet_red{
   padding-left: 10px;
 }
-.main .view-servicios{
+.view-servicios{
 	width: 100%;
 	height: 311px;	
 }
-.main .view-servicios .box-imagen-servicio{
+.view-servicios .box-imagen-servicio{
 	width: 230px;
 	height: 144px;
 	float: left;
 	background-color: #00aced;
 }
-.main .view-servicios .views-row .box-cotainer{
-	/*position:relative;
-	width: 230px;
-	height: 144px;	*/
-}
-.main .view-servicios .views-row{
+.view-servicios .views-row{
 	float:left;
 	display:block;
 }
-.main .view-servicios .box-imagen-servicio p{
+.view-servicios .box-imagen-servicio p{
   margin-top: 100px;
   font-family: Raleway, sans-serif;
   color: white;
@@ -314,31 +373,31 @@ ul.bullet_red{
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.main .view-servicios .box-imagen-servicio.b1 {
+.view-servicios .box-imagen-servicio.b1 {
   margin-right: 20px;
   margin-bottom: 20px;
   background-image: url('../images/icon_1_p.png');
   background-position: 50% 10px;
   background-repeat: no-repeat;
 }
-.main .view-servicios .box-imagen-servicio.b2 {
+.view-servicios .box-imagen-servicio.b2 {
   margin-bottom: 20px;
   background-image: url('../images/icon_2_p.png');
   background-position: 50% 10px;
   background-repeat: no-repeat;
 }
-.main .view-servicios .box-imagen-servicio.b3 {
+.view-servicios .box-imagen-servicio.b3 {
   margin-right: 20px;
   background-image: url('../images/icon_3_p.png');
   background-position: 50% 11px;
   background-repeat: no-repeat;
 }
-.main .view-servicios .box-imagen-servicio.b4 {
+.view-servicios .box-imagen-servicio.b4 {
   background-image: url('../images/icon_4_p.png');
   background-position: 50% 10px;
   background-repeat: no-repeat;
 }
-.main .view-servicios div[class^=roll-over]{
+.view-servicios div[class^=roll-over]{
 	display: block;
 	width: 230px;
 	height: 144px;
@@ -346,7 +405,7 @@ ul.bullet_red{
 	padding-top: 5px;
 	position:relative;
 }
-.main .view-servicios div[class^=roll-over] a{
+.view-servicios div[class^=roll-over] a{
 	display:block;
 	float:left;
 	font-family: "Raleway", sans-serif;
@@ -367,13 +426,15 @@ ul.bullet_red{
 	box-sizing: border-box;		
 	position:absolute;
 }
-.main .view-servicios div[class^=roll-over] a p{
+.view-servicios div[class^=roll-over] a p{
 	font-family:'Open Sans', sans-serif;
 	font-size: 14px;
+	line-height: 17px;
 	text-transform:none;
 	font-weight:400;
 	
 }
+
 
 /****/
 
