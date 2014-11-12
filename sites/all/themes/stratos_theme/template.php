@@ -130,4 +130,17 @@ function stratos_theme_preprocess_node(&$vars) {
 function stratos_theme_preprocess_block(&$vars, $hook) {
   // Add a striping class.
   $vars['classes_array'][] = 'block-' . $vars['zebra'];
+
+  //si los bloques tienen los ids:
+  if($vars['block_id']==3){
+    $vars['classes_array'][] = 'grid';    
+  }
+
+}
+
+function stratos_theme_form_webform_client_form_alter(&$form, $form_state, $form_id) {
+  if($form['#node']->nid==2){
+    $form['actions']['submit']['#attributes']['id'] = 'edit-webform-ajax-submit-'.$form['#node']->nid;
+  }
+
 }
