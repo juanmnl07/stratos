@@ -93,9 +93,7 @@
 
 <?php if ($page['below_content']): ?>
   <section class="below-content">
-    <div class="grid">
       <?php print render($page['below_content']); ?>
-    </div>
   </section>
 <?php endif; // end Below Content ?>
 

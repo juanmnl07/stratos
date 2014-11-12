@@ -13,7 +13,7 @@ body {
   =LAYOUT -- mobile first
 --------------------------------------------- */
 .header .grid,
-.main-content,
+.panels-flexible-row-inside,
 .below-content .grid,
 .footer .grid {
   max-width: 100%;
@@ -185,10 +185,6 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	font-weight:700;
 }
 /* Added by Juan */
-.below-content .block {
-  width: 100%;
-  float: left;
-}
 .main{
 	font-family:'Open Sans', sans-serif;
 	color: #58595B;
@@ -473,10 +469,10 @@ ul.bullet_red{
 @media only screen and (min-width: 62.5em) { /* > 1000 */
 
   .header .grid,
-  .main-content,
+  .panels-flexible-row-inside,
   .below-content .grid,
   .footer .grid{
-    max-width: 62.5em;
+    max-width: 1000px;
   }
 
   .one-sidebar .main {
