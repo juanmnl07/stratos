@@ -200,7 +200,7 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	color: #EA0028;
 	text-transform:uppercase;
 	font-family: "Raleway", sans-serif;
-	font-size: 28px;
+	font-size: 27px;
 	line-height: 30px;	
 }
 
@@ -567,9 +567,9 @@ ul.bullet_red{
 	margin-left: 10px;
 }
 
-.panel-flexible .panel-flexible-inside .panels-flexible-row-inside-first p{
+.not-front .panel-flexible .panel-flexible-inside .panels-flexible-row-inside-first p{
 	text-align:center;
-	padding: 0px 50px; /* Problema en bloques primeros del home*/
+	padding: 0px 50px;
 }
 
 .panel-flexible .panel-flexible-inside .Centrado{
@@ -628,6 +628,45 @@ ul.bullet_red{
 }
 .page-servicios-para-pymes .view-servicios .box-imagen-servicio.b4{
 	margin-right: 0px;
+}
+
+
+#accordion{
+}
+#accordion .ui-accordion-header{
+}
+#accordion .ui-accordion-content{
+}
+
+.accord {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  background-color: #00aced;
+  font-family: Raleway, sans-serif;
+  color: white;
+  font-size: 23px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.accord.open {
+  background-image: url('../images/bullet_inversionistas_open.png');
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+}
+.accord.close {
+  background-image: url('../images/bullet_inversionistas_close.png');
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+}
+.accord_content {
+  padding: 20px;
+  background-color: white;
+  font-family:'Open Sans', sans-serif;
+  color: #58595b;
+  font-size: 15px;
 }
 
 /****/
