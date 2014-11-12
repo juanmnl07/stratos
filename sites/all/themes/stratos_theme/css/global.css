@@ -14,8 +14,10 @@ body {
 --------------------------------------------- */
 .header .grid,
 .panels-flexible-row-inside,
+.panels-ipe-portlet-content,
 .below-content .grid,
-.footer .grid {
+.footer .grid,
+.breadcrumb {
   max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -513,7 +515,9 @@ ul.bullet_red{
 
   .header .grid,
   .panels-flexible-row-inside,
+  .panels-ipe-portlet-content,
   .below-content .grid,
+  .breadcrumb,
   .footer .grid{
     max-width: 1000px;
   }
