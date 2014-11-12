@@ -270,13 +270,23 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 .above-content{
 	position:relative;
 }
+
+.contenedor-webform{
+	width: 1000px;
+	margin: auto;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+}
+
 #block-webform-client-block-2{
 	width: 448px;
-	height: 570px;
+	height: 634px;
 	background-image: url('../images/bg_form.png');
 	position:absolute;
 	z-index: 999;
-	top: 0px;
+	right: 0px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
@@ -431,6 +441,39 @@ ul.bullet_red{
 	
 }
 
+#block-block-4{
+	height: 118px;
+	background-color: #EA0028;
+}
+
+
+#block-block-4 #cintillo a{
+	display: block;
+	width: 200px;
+	height: 45px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid #FFF;
+	background-color: transparent;
+	font-family: "Raleway", sans-serif;
+	color: #FFF;
+	text-align:center;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	cursor: pointer;
+	float:right;
+}
+#block-block-4 #cintillo h4{
+	font-family: "Raleway", sans-serif;
+	font-size: 31px;
+	font-weight:500;
+	line-height: 118px;
+	text-transform:uppercase;
+	color: #FFFFFF;
+	float:left;
+}
 
 /****/
 
