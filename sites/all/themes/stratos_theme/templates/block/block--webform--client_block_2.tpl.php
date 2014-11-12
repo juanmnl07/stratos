@@ -3,6 +3,7 @@
 		<?php print render($title_prefix); ?>
 		<?php if ($block->subject): ?>
 		  <h2><?php print $block->subject ?></h2>
+		  <p>Conozca nuestro ecosistema de servicios, empresas y emprendedores.</p>
 		<?php endif;?>
 		<?php print render($title_suffix); ?>
 		<div class="content"<?php print $content_attributes; ?>>

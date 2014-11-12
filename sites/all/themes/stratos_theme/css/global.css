@@ -17,6 +17,7 @@ body {
 .panels-ipe-portlet-content,
 .below-content .grid,
 .footer .grid,
+#page-title,
 .breadcrumb {
   max-width: 100%;
   margin: 0 auto;
@@ -282,6 +283,11 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	top: 0px;
 }
 
+.contenedor-webform p {
+	margin: 0;
+	text-align: center;
+}
+
 #block-webform-client-block-2{
 	width: 448px;
 	height: 634px;
@@ -303,6 +309,8 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	font-weight: 500;
 	text-transform: uppercase;
 	text-align:center;	
+	margin-bottom: 18px;
+	margin-top: 0px;
 }
 
 #block-webform-client-block-2 .webform-client-form{
@@ -443,7 +451,8 @@ ul.bullet_red{
 }
 
 .not-front .main-content .breadcrumb{
-	float:right;
+	text-align: right;
+	margin: 20px auto;
 	font-family:'Open Sans', sans-serif;
 	font-size: 15px;	
 	color: #58595B;
@@ -710,6 +719,7 @@ ul.bullet_red{
   .panels-ipe-portlet-content,
   .below-content .grid,
   .breadcrumb,
+  #page-title,
   .footer .grid{
     max-width: 1000px;
   }

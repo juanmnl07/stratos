@@ -129,6 +129,9 @@ function stratos_theme_preprocess_node(&$vars) {
 
 function stratos_theme_preprocess_block(&$vars, $hook) {
   // Add a striping class.
+  /*if ($vars['block_id']==2){
+    dpm($vars['elements']['#block']); 
+  }*/
   $vars['classes_array'][] = 'block-' . $vars['zebra'];
 
 }
