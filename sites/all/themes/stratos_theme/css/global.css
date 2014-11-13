@@ -217,6 +217,9 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	box-shadow: none;
 	position:relative;
 }
+.view-banner-grande .view-content{
+	border-bottom: 1px solid #58595B;
+}
 
 #flexslider-1.flexslider .views-field-nothing{
 	position: absolute;
@@ -298,6 +301,7 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 .contenedor-webform p {
 	margin: 0;
 	text-align: center;
+	line-height: 20px;
 }
 
 .block-webform{
@@ -321,7 +325,7 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	font-weight: 500;
 	text-transform: uppercase;
 	text-align:center;	
-	margin-bottom: 18px;
+	margin-bottom: 10px;
 	margin-top: 0px;
 }
 
@@ -512,7 +516,7 @@ ul.bullet_red{
 
 .not-front .main-content .breadcrumb{
 	text-align: right;
-	margin: 20px auto;
+	padding-top: 20px;
 	font-family:'Open Sans', sans-serif;
 	font-size: 15px;	
 	color: #58595B;
@@ -522,7 +526,6 @@ ul.bullet_red{
 }
 
 .panel-flexible .panel-flexible-inside .panels-flexible-row-first{
-	border-top: 1px solid #58595B;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
@@ -821,12 +824,25 @@ ul.bullet_red{
 	padding-bottom: 50px;
 }
 
-#panels-ipe-display-panel-context-page-pagina-stratos-page-pagina-stratos-panel-context{
+.page-stratos-ecosistema-empresarial .main-content{
 	background-color: #F2F2F2;
 }
+#flexslider-1.flexslider .banner-grande-caption.peq{
+	width: 320px;
+	height: 72px;
+	margin-top: -43px;
+}
+#flexslider-1.flexslider .banner-grande-caption.peq .titulo p{
+	font-weight:800;
+	text-align:center;
+	font-size: 35px;
+	line-height: 35px;
+}
+
 
 #block-views-socios-block-socios-resumenes{
 	background-color: #FFFFFF;
+	padding-bottom: 30px;
 }
 
 
@@ -839,7 +855,37 @@ ul.bullet_red{
 	width: 233px;
 	float:left;
 	margin-right: 120px;
+	margin-bottom: 30px;
+}
 
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-title{
+	color: #00ACED;
+	text-transform:uppercase;
+	font-family: Raleway, sans-serif;
+	font-size: 20px;
+	font-weight:800;
+	background-image: url("../images/linea_titulo_socios.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-bottom: 10px;
+}
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-field-relacion{
+	font-family: Raleway, sans-serif;
+	font-size: 16px;	
+	font-weight:800;
+	color: #58595B;
+	text-transform:uppercase;
+}
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-body p{
+  font-family:'Open Sans', sans-serif;
+  color: #808285;
+  font-size: 13px;
+  line-height: 14px;	
+}
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-nothing{
+}
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-nothing .redes-sociales a{
+	margin-right: 5px;
 }
 #block-views-socios-block-socios-resumenes .bloques-socios .views-row-3,
 #block-views-socios-block-socios-resumenes .bloques-socios .views-row-6,
