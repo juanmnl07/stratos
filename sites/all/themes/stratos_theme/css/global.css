@@ -237,7 +237,7 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	background-image: url('../images/bg_celeste_t.png');	
 }
 
-#flexslider-1.flexslider .banner-grande-caption p.titulo{
+#flexslider-1.flexslider .banner-grande-caption .titulo p{
 	margin-bottom: 30px;
 	font-family: "Raleway", sans-serif;
 	color: white;
@@ -801,10 +801,10 @@ ul.bullet_red{
   padding-left: 40px;
   background-image: url('../images/bullet_servicios.png');
   background-repeat: no-repeat;
+  background-position: left center;
   font-family: Raleway, sans-serif;
   color: #ea0028;
   font-size: 22px;
-  line-height: 21px;
   text-transform: uppercase;
 }
 .box_bene_descript {
