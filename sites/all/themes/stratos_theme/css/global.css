@@ -121,7 +121,7 @@ nav#block-system-main-menu ul.menu li.leaf a{
 nav#block-system-main-menu ul.menu li.last a{
 	padding-right: 0px;
 }
-nav#block-system-main-menu ul.menu li.leaf a.active{
+nav#block-system-main-menu ul.menu li.leaf a.active, nav#block-system-main-menu ul.menu li.active-trail a{
 	font-weight:800;
 	color: #EA0028;
 }
