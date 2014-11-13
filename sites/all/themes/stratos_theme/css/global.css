@@ -130,7 +130,7 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 }
 
 .title#page-title{
-	padding-top: 10px;
+	padding-top: 40px;
 	padding-bottom: 35px;
 	background-image: url('../images/linea_titulo.png');
 	background-position: 50% 100%;
@@ -190,12 +190,11 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 /* Added by Juan */
 .main{
 	font-family:'Open Sans', sans-serif;
-	color: #58595B;
-	font-size: 15px;
-	
+	color: #808285;	
 }
 .main p{
 	line-height: 20px;
+	font-size: 15px;
 }
 .main h2{
 	color: #EA0028;
@@ -270,6 +269,19 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	background-position: right center;
 	background-repeat: no-repeat;	
 }
+
+.front #flexslider-1.flexslider .banner-grande-caption{
+	width: 450px;
+	height: 230px;
+}
+.front #flexslider-1.flexslider .banner-grande-caption p.titulo{
+	font-size: 32px;
+	margin-bottom: 20px;	
+}
+.front #flexslider-1.flexslider .banner-grande-caption p.descripcion{
+	margin-bottom: 20px;
+}
+
 .above-content{
 	position:relative;
 }
@@ -369,12 +381,23 @@ ul.bullet_red{
 	width: 100%;
 	height: 311px;	
 }
+.page-servicios-para-pymes .view-servicios{
+	height: 200px;	
+}
 .view-servicios .box-imagen-servicio{
 	width: 230px;
 	height: 144px;
 	float: left;
 	background-color: #00aced;
 }
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4 .view-servicios{
+	height: 360px;
+}
+.servicios-bloques-grande .box-imagen-servicio{
+	width: 307px;
+	height: 193px;	
+}
+
 .view-servicios .views-row{
 	float:left;
 	display:block;
@@ -389,6 +412,10 @@ ul.bullet_red{
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4 .box-imagen-servicio p{
+	margin-top: 130px;
+	font-size: 26px;
+}
 .view-servicios .box-imagen-servicio.b1 {
   margin-right: 20px;
   margin-bottom: 20px;
@@ -396,23 +423,41 @@ ul.bullet_red{
   background-position: 50% 10px;
   background-repeat: no-repeat;
 }
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4 .servicios-bloques-grande .box-imagen-servicio.b1{
+	background-image: url('../images/icon_1_g.png');
+}
+
 .view-servicios .box-imagen-servicio.b2 {
   margin-bottom: 20px;
   background-image: url('../images/icon_2_p.png');
   background-position: 50% 10px;
   background-repeat: no-repeat;
 }
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4 .servicios-bloques-grande .box-imagen-servicio.b2{
+	margin-right: 20px;
+	background-image: url('../images/icon_2_g.png');
+}
+
 .view-servicios .box-imagen-servicio.b3 {
   margin-right: 20px;
   background-image: url('../images/icon_3_p.png');
   background-position: 50% 11px;
   background-repeat: no-repeat;
 }
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4 .servicios-bloques-grande .box-imagen-servicio.b3{
+	 background-image: url('../images/icon_3_g.png');
+}
+
 .view-servicios .box-imagen-servicio.b4 {
   background-image: url('../images/icon_4_p.png');
   background-position: 50% 10px;
   background-repeat: no-repeat;
 }
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4 .servicios-bloques-grande .box-imagen-servicio.b4{
+	margin-right: 20px;
+	background-image: url('../images/icon_4_g.png');
+}
+
 .view-servicios div[class^=roll-over]{
 	display: block;
 	width: 230px;
@@ -421,6 +466,11 @@ ul.bullet_red{
 	padding-top: 5px;
 	position:relative;
 }
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4 div[class^=roll-over]{
+	width: 307px;
+	height: 193px;
+}
+
 .view-servicios div[class^=roll-over] a{
 	display:block;
 	float:left;
@@ -442,12 +492,22 @@ ul.bullet_red{
 	box-sizing: border-box;		
 	position:absolute;
 }
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4 div[class^=roll-over] a{
+	font-size: 26px;
+	padding: 15px 5px 0px 5px;
+	background-position: center 40px;
+
+}
 .view-servicios div[class^=roll-over] a p{
 	font-family:'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 17px;
 	text-transform:none;
 	font-weight:400;	
+}
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4 div[class^=roll-over] a p{
+	margin-top: 30px;
+	font-size: 17px;
 }
 
 .not-front .main-content .breadcrumb{
@@ -580,9 +640,15 @@ ul.bullet_red{
 	margin-left: 10px;
 }
 
-.not-front .panel-flexible .panel-flexible-inside .panels-flexible-row-inside-first p{
+.not-front .panel-flexible .panel-flexible-inside .encabezado .panels-flexible-row-inside-first p,
+.not-front #panels-ipe-paneid-1 .pane-content{
 	text-align:center;
 	padding: 0px 50px;
+	font-size: 19px;
+}
+.not-front #panels-ipe-paneid-1 .pane-content{
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .panel-flexible .panel-flexible-inside .Centrado{
@@ -696,6 +762,59 @@ ul.bullet_red{
 }
 .page-invertir-en-empresas-costa-rica .panel-flexible .panel-flexible-inside .panels-flexible-region-first .pane-content{
 	padding-right: 50px;
+}
+
+
+
+.node-type-servicio .panel-flexible .panel-flexible-inside .panels-flexible-row-first{
+	background-color: #F1F2F2;
+}
+.panel-flexible .panel-flexible-inside .filla-beneficios{
+	background-image: url("../images/bg_recuadros_bene.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-bottom: 50px;
+}
+
+.panel-flexible .panel-flexible-inside .filla-beneficios h2#page-title,
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4 .servicios-bloques-grande h2#page-title{
+	margin-bottom: 30px;
+}
+
+.box_beneficios {
+  width: 320px;
+  height: 260px;
+  padding: 20px;
+  float: left;
+  border: 1px solid #c5c7c8;
+  background-color: #FFF;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.box_bene_titulo {
+  margin-bottom: 20px;
+  padding-left: 40px;
+  background-image: url('../images/bullet_servicios.png');
+  background-repeat: no-repeat;
+  font-family: Raleway, sans-serif;
+  color: #ea0028;
+  font-size: 22px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.box_bene_descript {
+  font-family:'Open Sans', sans-serif;
+  color: #58595b;
+  font-size: 15px;
+}
+
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4{
+	padding-bottom: 50px;
 }
 
 /****/
