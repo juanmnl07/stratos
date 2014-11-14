@@ -389,6 +389,12 @@ ul.bullet_red{
 .page-servicios-para-pymes .view-servicios{
 	height: 200px;	
 }
+
+.page-servicios-para-pymes .panel-1col .panel-col{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
 .view-servicios .box-imagen-servicio{
 	width: 230px;
 	height: 144px;
@@ -645,7 +651,7 @@ ul.bullet_red{
 }
 
 .not-front .panel-flexible .panel-flexible-inside .encabezado .panels-flexible-row-inside-first p,
-.not-front #panels-ipe-paneid-1 .pane-content,
+.not-front .panel-display .pane-custom .pane-content,
 .detalle-socios p{
 	text-align:center;
 	padding: 0px 50px;
@@ -654,7 +660,7 @@ ul.bullet_red{
 	line-height: 21px;
 	font-family:'Open Sans', sans-serif;
 }
-.not-front #panels-ipe-paneid-1 .pane-content{
+.not-front .panel-display .pane-custom .pane-content{
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -775,14 +781,20 @@ ul.bullet_red{
 
 
 
-.node-type-servicio .panel-flexible .panel-flexible-inside .panels-flexible-row-first{
+/*.node-type-servicio .panel-flexible .panel-flexible-inside .panels-flexible-row-first*/
+.node-type-servicio .main-content{
 	background-color: #F1F2F2;
 }
+page-servicios-para-pymes .main-content{
+	background-color: #FFFFFF;
+}
+
 .panel-flexible .panel-flexible-inside .filla-beneficios{
 	background-image: url("../images/bg_recuadros_bene.png");
 	background-repeat: no-repeat;
 	background-position: top right;
 	padding-bottom: 50px;
+	background-color: #FFFFFF;
 }
 
 .panel-flexible .panel-flexible-inside .filla-beneficios h2#page-title,

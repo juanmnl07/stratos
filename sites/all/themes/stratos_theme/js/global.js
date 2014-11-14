@@ -10,22 +10,31 @@ jQuery(document).ready(function(){
 	}
 	var box = jQuery("div[class^=roll-over]");
 	
-	box.show().animate({"transform": "scale(0,0)"});
-	if(IE === true){ box.delay(100).hide(); } 
+	if(IE === true){
+		box.delay(100).hide();
+		}  else {
+		box.show().animate({"transform": "scale(0,0)"});
+	}
 	
 	jQuery(".box-cotainer").hover(function() {
 		var boxinfo = jQuery(this).find( ".roll-over" );
-		boxinfo.delay(100).show().animate({"transform": "scale(1,1)"});
-		if(IE === true){ boxinfo.delay(100).show(); } 			
+		if(IE === true){
+			boxinfo.delay(100).show();
+			} else {
+			boxinfo.delay(100).show().animate({"transform": "scale(1,1)"});
+		}
 	}, function(){
 		var boxinfo = jQuery(this).find( ".roll-over" );
-		boxinfo.delay(100).show().animate({"transform": "scale(0,0)"});
-		if(IE === true){ boxinfo.delay(100).hide(); } 
+		if(IE === true){
+			boxinfo.delay(100).hide();
+			} else {
+			boxinfo.delay(100).show().animate({"transform": "scale(0,0)"});
+		}
 	});
 
-	jQuery(function() {
-	    jQuery( "#accordion" ).accordion();
-	 });
+
+	jQuery( "#accordion" ).accordion();
+
 
 
 });
