@@ -718,6 +718,7 @@ ul.bullet_red{
 
 
 #accordion{
+	list-style: none;
 }
 #accordion li{
 	margin-bottom: 10px;

@@ -127,6 +127,17 @@ function stratos_theme_preprocess_node(&$vars) {
   $vars['classes_array'][] = 'node-' . $vars['zebra'];
 }
 
+function stratos_theme_preprocess_field(&$vars) {
+  // Add a striping class.
+  if ($vars['element']['#field_name'] == 'field_contenido_beneficios') {
+    array_push($vars['classes_array'],"beneficios-contenido");
+  }
+
+  if ($vars['element']['#field_name'] == 'field_contenido_acordion') {
+    array_push($vars['classes_array'],"beneficios-titulo");
+  }
+}
+
 function stratos_theme_preprocess_block(&$vars, $hook) {
   // Add a striping class.
   /*if ($vars['block_id']==2){
