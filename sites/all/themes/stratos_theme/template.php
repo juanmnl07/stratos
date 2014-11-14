@@ -48,7 +48,8 @@ function stratos_theme_preprocess_html(&$variables) {
     '#tag' => 'meta',
     '#attributes' => array(
       'name' => 'viewport',
-      'content' => 'width=device-width, initial-scale=1',
+      //'content' => 'width=device-width, initial-scale=1',
+      'content' => 'width=1024',
     ),
   );
   drupal_add_html_head($meta_viewport, 'meta_viewport');
@@ -129,12 +130,28 @@ function stratos_theme_preprocess_node(&$vars) {
 
 function stratos_theme_preprocess_field(&$vars) {
   // Add a striping class.
-  if ($vars['element']['#field_name'] == 'field_contenido_beneficios') {
+  if ($vars['element']['#field_name'] == 'field_body_beneficios') {
+    array_push($vars['classes_array'],"field-beneficios");
     array_push($vars['classes_array'],"beneficios-contenido");
   }
 
-  if ($vars['element']['#field_name'] == 'field_contenido_acordion') {
+  if ($vars['element']['#field_name'] == 'field_titulo_beneficios') {
+    $titulo = $vars['element']['#items'][0]['value'];
+    $titulo_plain = strip_tags($titulo);
+    $lineas = strlen($titulo_plain)/15;
+    $class_row = "tres-lineas";
+
+    if ($lineas >= 1){
+      $class_row = "una-linea";
+    }
+
+    if ($lineas >= 2){
+      $class_row = "dos-lineas";
+    }
+
     array_push($vars['classes_array'],"beneficios-titulo");
+    array_push($vars['classes_array'],"field-beneficios");
+    array_push($vars['classes_array'],$class_row);
   }
 }
 
