@@ -141,11 +141,9 @@ function stratos_theme_preprocess_field(&$vars) {
     $lineas = strlen($titulo_plain)/15;
     $class_row = "tres-lineas";
 
-    if ($lineas >= 1){
+    if ($lineas <= 1){
       $class_row = "una-linea";
-    }
-
-    if ($lineas >= 2){
+    } else if ($lineas < 3){
       $class_row = "dos-lineas";
     }
 
