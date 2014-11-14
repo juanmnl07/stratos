@@ -18,7 +18,8 @@ body {
 .below-content .grid,
 .footer .grid,
 #page-title,
-.breadcrumb {
+.breadcrumb,
+.profile, #user-login {
   max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -907,7 +908,35 @@ ul.bullet_red{
 	margin-right: 0px;
 }
 
+.banner-grande-caption .correo a {background-image: none !important;}
+.banner-grande-caption .telefono span, .banner-grande-caption .direccion span, .banner-grande-caption .correo a {color: #fff; font-size: 17px !important; font-weight: 500 !important;}
+
 /****/
+
+/* Estilo temporal para IE8 */
+  .header .grid,
+  .panels-flexible-row-inside,
+  .panels-ipe-portlet-content,
+  .below-content .grid,
+  .breadcrumb,
+  #page-title,
+  .footer .grid,
+  .profile, #user-login{
+    max-width: 1000px;
+  }
+
+  .one-sidebar .main {
+    width: 60%;
+  }
+  .one-sidebar #sidebar-first {
+    width: 40%;
+  }
+
+  .below-content #block-views-servicios-servicios-bloques-peq,
+  .below-content #block-block-3 {
+  width: 50%;
+}
+/*******/
 
 /*
   =MEDIA QUERIES
@@ -949,7 +978,8 @@ ul.bullet_red{
   .below-content .grid,
   .breadcrumb,
   #page-title,
-  .footer .grid{
+  .footer .grid,
+  .profile, #user-login{
     max-width: 1000px;
   }
 
