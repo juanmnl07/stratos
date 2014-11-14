@@ -814,8 +814,9 @@ ul.bullet_red{
 	
 }
 
-.views-field-field-beneficios ul li .box_bene_titulo {
-  margin-bottom: 20px;
+.views-field-field-beneficios ul li .beneficios-titulo p{
+  margin-bottom: 10px;
+  margin-top: 0px;
   padding-left: 40px;
   background-image: url('../images/bullet_servicios.png');
   background-repeat: no-repeat;
@@ -825,7 +826,16 @@ ul.bullet_red{
   font-size: 22px;
   text-transform: uppercase;
 }
-.box_bene_descript {
+.views-field-field-beneficios ul li .una-linea p{
+	line-height: 32px;
+} 
+.views-field-field-beneficios ul li .dos-lineas p{
+	line-height: 21px;
+}
+/*.views-field-field-beneficios ul li .tres-lineas p{
+} */
+
+.views-field-field-beneficios ul li .beneficios-contenido {
   font-family:'Open Sans', sans-serif;
   color: #58595b;
   font-size: 15px;
