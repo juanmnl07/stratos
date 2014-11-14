@@ -813,23 +813,7 @@ ul.bullet_red{
 	
 }
 
-
-.box_beneficios {
-  width: 320px;
-  height: 260px;
-  padding: 20px;
-  float: left;
-  border: 1px solid #c5c7c8;
-  background-color: #FFF;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	box-sizing: border-box;
-	margin-left: 10px;
-	margin-bottom: 10px;
-}
-.box_bene_titulo {
+.views-field-field-beneficios ul li .box_bene_titulo {
   margin-bottom: 20px;
   padding-left: 40px;
   background-image: url('../images/bullet_servicios.png');
