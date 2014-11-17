@@ -1,0 +1,31 @@
+@media only screen and (min-width: 62.5em) { /* > 1000 */
+
+  .header .grid,
+  .panels-flexible-row-inside,
+  .panels-ipe-portlet-content,
+  .below-content .grid,
+  .breadcrumb,
+  #page-title,
+  .footer .grid,
+  .profile, #user-login{
+    max-width: 1000px;
+  }
+
+  .one-sidebar .main {
+    width: 60%;
+  }
+  .one-sidebar #sidebar-first {
+    width: 40%;
+  }
+
+  .below-content #block-views-servicios-servicios-bloques-peq,
+  .below-content #block-block-3 {
+  width: 50%;
+}
+
+.fila-dos-columnas .bloque-izq, .fila-dos-columnas .bloque-der {width: 49.4%}
+.panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home{
+	padding-right: 130px;
+}
+
+}

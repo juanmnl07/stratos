@@ -41,7 +41,7 @@ body {
 }
 
 /* Ajustar anchos de los bloques panels */
-.panels-flexible-region.bloque-izq, .panels-flexible-region.bloque-der {width: 100%}
+.fila-dos-columnas .bloque-izq, .fila-dos-columnas .bloque-der {width: 100%}
 
 /*
   =LINKS
@@ -572,7 +572,7 @@ ul.bullet_red{
 	padding-top: 40px;
 }
 .panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home{
-	padding-right: 130px;
+	padding-right: 0px;
 }
 .panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home h2{
 	font-weight:bold;
@@ -941,10 +941,6 @@ page-servicios-para-pymes .main-content{
 /*
   =MEDIA QUERIES
 --------------------------------------------- */
-@media only screen and (min-width: 30em) { /* > 480 */
-
-}
-
 @media only screen and (min-width: 30em) and (max-width: 35em) {
 
 }
@@ -957,12 +953,6 @@ page-servicios-para-pymes .main-content{
 
 }
 
-@media only screen and (min-width: 45em) { /* > 720 */
-
-
-
-}
-
 @media only screen and (min-width: 55em) { /* > 880 */
 
 }
@@ -971,34 +961,5 @@ page-servicios-para-pymes .main-content{
 
 }
 
-@media only screen and (min-width: 62.5em) { /* > 1000 */
-
-  .header .grid,
-  .panels-flexible-row-inside,
-  .panels-ipe-portlet-content,
-  .below-content .grid,
-  .breadcrumb,
-  #page-title,
-  .footer .grid,
-  .profile, #user-login{
-    max-width: 1000px;
-  }
-
-  .one-sidebar .main {
-    width: 60%;
-  }
-  .one-sidebar #sidebar-first {
-    width: 40%;
-  }
-
-  .below-content #block-views-servicios-servicios-bloques-peq,
-  .below-content #block-block-3 {
-  width: 50%;
-}
-
-.panels-flexible-region.bloque-izq, .panels-flexible-region.bloque-der {width: 49.4%}
-.panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home{
-	padding-right: 130px;
-}
 
 }
