@@ -245,20 +245,20 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 }
 
 #flexslider-1.flexslider .views-field-nothing{
-	position: absolute;
-	width: 1000px;
-	left: 0px;
-	right: 0px;
+	position: static;
+	width: auto;
+	left: none;
+	right: none;
 	margin: auto;
-	top: 130px;	
+	top: none;	
 }
 
 #flexslider-1.flexslider .banner-grande-caption{
 	width: 100%;
-	height: 305px;
+	height: auto;
 	padding-top: 20px;
-	padding-right: 30px;
-	padding-left: 30px;
+	padding-right: 15px;
+	padding-left: 15px;
 	padding-bottom: 20px;
 	background-image: url('../images/bg_celeste_t.png');	
 }
@@ -267,8 +267,8 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	margin-bottom: 15px;
 	font-family: "Raleway", sans-serif;
 	color: white;
-	font-size: 27px;
-	line-height: 28px;
+	font-size: 20px;
+	line-height: 22px;
 	font-weight: 500;
 	padding-top: 0px;
 	margin-top: 0px;
@@ -276,17 +276,17 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 }
 
 #flexslider-1.flexslider .banner-grande-caption p.descripcion{
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	font-family:'Open Sans', sans-serif;
 	color: white;
-	font-size: 17px;
-	line-height: 23px;
+	font-size: 15px;
+	line-height: 17px;
 	font-weight: 400;	
 }
 #flexslider-1.flexslider .banner-grande-caption a{
 	font-family: "Raleway", sans-serif;
 	color: white;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 800;
 	padding-right: 25px;
 	text-decoration: none;
@@ -313,29 +313,29 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 }
 
 .contenedor-webform{
-	width: 1000px;
+	width: auto;
 	margin: auto;
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 0px;
+	position: static;
+	left: none;
+	right: none;
+	top: none;
 }
 
 .contenedor-webform p {
 	margin: 0;
-	line-height: 20px;
+	line-height: 15px;
 	text-align:center;
 	padding: 0px 10px;
-	font-size: 16px;
+	font-size: 15px;
 	color: #808285;
 	font-family:'Open Sans', sans-serif;
 }
 
 .block-webform{
-	width: 448px;
-	height: 634px;
+	width: 100%;
+	height: 565px;
 	background-image: url('../images/bg_form.png');
-	position:absolute;
+	position:static;
 	z-index: 999;
 	right: 0px;
 	-webkit-box-sizing: border-box;
@@ -346,7 +346,8 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	padding: 20px 30px;			
 }
 .block-webform h2{
-	font-size: 32px;
+	font-size: 27px;
+	line-height: 25px;
 	color: #EA0028;
 	font-family: "Raleway", sans-serif;
 	font-weight: 500;
@@ -410,7 +411,7 @@ ul.bullet_red{
 }
 .view-servicios{
 	width: 100%;
-	height: 311px;	
+	height: auto;	
 }
 
 .page-servicios-para-empresarios .view-servicios  {margin-top: 90px;} 
@@ -442,10 +443,6 @@ ul.bullet_red{
 .view-servicios .views-row{
 	float:left;
 	display:block;
-}
-
-.view-servicios .views-row-1 .roll-over, .view-servicios .views-row-3 .roll-over {
-   left: 7px;
 }
 
 .view-servicios .box-imagen-servicio p{
@@ -1037,9 +1034,14 @@ ul.bullet_red{
 	width: 230px;
 	margin: auto;
 }
+.panels-flexible-una_fila_dos_columnas .panels-flexible-region-inside-first{
+	padding-left: 0.5em;
+}
 
-.view-servicios .box-imagen-servicio{
-	margin: 0px;
+.view-servicios .box-imagen-servicio.b1,
+.view-servicios .box-imagen-servicio.b2,
+.view-servicios .box-imagen-servicio.b3,
+.view-servicios .box-imagen-servicio.b4{
 	margin-bottom: 20px;
 }
 
