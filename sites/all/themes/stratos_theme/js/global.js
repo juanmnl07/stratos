@@ -35,6 +35,6 @@ jQuery(document).ready(function(){
 
 	jQuery( "#accordion" ).accordion();
 
-
+	jQuery('.views-field-field-beneficios ul li:nth-child(3n+3)').addClass('nth-child-3th');
 
 });
