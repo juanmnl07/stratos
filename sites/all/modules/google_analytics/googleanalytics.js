@@ -1,9 +1,34 @@
+var urlactual = document.URL.replace( /#.*/, "");
+urlactual = urlactual.replace( /\?.*/, "");
+
 (function ($) {
 
 Drupal.googleanalytics = {};
 
 $(document).ready(function() {
 
+  //Google Analytics Evento Segundos
+  setTimeout(function(){ga('send', 'event', 'T>30s', 'Tiempo mayor a 30 segundos', urlactual);},30000);
+
+  //Google Analytics Evento Scroll
+  var times = 0;
+  //location.hash = '';
+  $(window).scroll(function(){
+    var bottom = $(window).height() + $(window).scrollTop();
+    var height = $(document).height();
+    var percentage = Math.round(100*bottom/height);
+      if(percentage > 50 && times==0){
+        times=times + 1;
+        ga('send', 'event', 'Scroll', '50%', urlactual);
+      }
+  });
+  <!--Google Analytics Evento Clic-->
+  /*
+  ----- Ejemplo -----
+  $("#matricula-aqui").on('click',function(){
+    ga('send', 'event', 'Botón matricula aquí', 'Botón: Barra Superior',urlactual);
+  });  
+*/
   // Attach mousedown, keyup, touchstart events to document only and catch
   // clicks on all elements.
   $(document.body).bind("mousedown keyup touchstart", function(event) {
@@ -21,7 +46,7 @@ $(document).ready(function() {
         // Is download tracking activated and the file extension configured for download tracking?
         else if (Drupal.settings.googleanalytics.trackDownload && Drupal.googleanalytics.isDownload(this.href)) {
           // Download link clicked.
-          ga("send", "event", "Downloads", Drupal.googleanalytics.getDownloadExtension(this.href).toUpperCase(), Drupal.googleanalytics.getPageUrl(this.href));
+          ga("send", "event", "Descargas", Drupal.googleanalytics.getDownloadExtension(this.href).toUpperCase(), Drupal.googleanalytics.getPageUrl(this.href));
         }
         else if (Drupal.googleanalytics.isInternalSpecial(this.href)) {
           // Keep the internal URL for Google Analytics website overlay intact.
@@ -31,12 +56,12 @@ $(document).ready(function() {
       else {
         if (Drupal.settings.googleanalytics.trackMailto && $(this).is("a[href^='mailto:'],area[href^='mailto:']")) {
           // Mailto link clicked.
-          ga("send", "event", "Mails", "Click", this.href.substring(7));
+          ga("send", "event", "Correo a:", "Clic", this.href.substring(7));
         }
         else if (Drupal.settings.googleanalytics.trackOutbound && this.href.match(/^\w+:\/\//i)) {
           if (Drupal.settings.googleanalytics.trackDomainMode != 2 && !Drupal.googleanalytics.isCrossDomain(this.hostname, Drupal.settings.googleanalytics.trackCrossDomains)) {
             // External link clicked / No top-level cross domain clicked.
-            ga("send", "event", "Outbound links", "Click", this.href);
+            ga("send", "event", "Links Externos", "Clic", this.href);
           }
         }
       }
