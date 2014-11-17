@@ -134,14 +134,14 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 }
 
 .title#page-title{
-	padding-top: 40px;
-	padding-bottom: 35px;
+	padding-top: 15px;
+	padding-bottom: 17px;
 	background-image: url('../images/linea_titulo.png');
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
 	font-family: Raleway, sans-serif;
 	color: #00aced;
-	font-size: 35px;
+	font-size: 18px;
 	font-weight: 800;
 	text-align: center;
 	text-transform: uppercase;
@@ -235,7 +235,7 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 }
 
 #flexslider-1.flexslider .banner-grande-caption{
-	width: 515px;
+	width: 100%;
 	height: 305px;
 	padding-top: 20px;
 	padding-right: 30px;
@@ -431,7 +431,7 @@ ul.bullet_red{
 	font-size: 26px;
 }
 .view-servicios .box-imagen-servicio.b1 {
-  margin-right: 20px;
+  /*margin-right: 20px;*/
   margin-bottom: 20px;
   background-image: url('../images/icon_1_p.png');
   background-position: 50% 10px;
@@ -448,12 +448,12 @@ ul.bullet_red{
   background-repeat: no-repeat;
 }
 #block-views-91b64421d58dd8a04f68aa86a6b33fd4 .servicios-bloques-grande .box-imagen-servicio.b2{
-	margin-right: 20px;
+	/*margin-right: 20px;*/
 	background-image: url('../images/icon_2_g.png');
 }
 
 .view-servicios .box-imagen-servicio.b3 {
-  margin-right: 20px;
+  /*margin-right: 20px;*/
   background-image: url('../images/icon_3_p.png');
   background-position: 50% 11px;
   background-repeat: no-repeat;
@@ -468,7 +468,7 @@ ul.bullet_red{
   background-repeat: no-repeat;
 }
 #block-views-91b64421d58dd8a04f68aa86a6b33fd4 .servicios-bloques-grande .box-imagen-servicio.b4{
-	margin-right: 20px;
+	/*margin-right: 20px;*/
 	background-image: url('../images/icon_4_g.png');
 }
 
@@ -536,8 +536,8 @@ ul.bullet_red{
 }
 
 .panel-flexible .panel-flexible-inside .panels-flexible-row-first{
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .panel-flexible .panel-flexible-inside .panels-flexible-row-first .box_h {
 	width: 100%;
@@ -598,8 +598,7 @@ ul.bullet_red{
 }
 #block-block-4 #cintillo .consultar,
 #block-block-6 #cintillo .consultar{
-	float:right;
-	margin-top: 38px;
+	clear: both;
 }
 #block-block-4 #cintillo a,
 #block-block-6 #cintillo a{
@@ -622,13 +621,15 @@ ul.bullet_red{
 #block-block-4 #cintillo h4,
 #block-block-6 #cintillo h4{
 	font-family: "Raleway", sans-serif;
-	font-size: 31px;
+	font-size: 20px;
 	font-weight:500;
-	line-height: 118px;
+	line-height: 24px;
 	text-transform:uppercase;
 	color: #FFFFFF;
 	float:left;
+	text-align: center;
 	margin: 0px; padding: 0px;
+	margin-top: 10px;
 }
 
 #block-block-5{
@@ -642,25 +643,30 @@ ul.bullet_red{
 	/*padding: 0px 50px;*/
 }
 #block-block-5 #bloque-comunidad p{
-	font-size: 19px;
-	line-height: 21px;
+	font-size: 14px;
+	line-height: 18px;
 	text-align:center;
 	color: #808285;
-	padding: 0px 60px;
+	padding: 0px 10px;
 	font-family:'Open Sans', sans-serif;
 }
+.logos-comunidad{
+	text-align: center;
+}
 #block-block-5 #bloque-comunidad .logos-comunidad img{
-	margin-left: 10px;
+	margin-left: none;
+	width: 190px;
+	margin: auto;
 }
 
 .not-front .panel-flexible .panel-flexible-inside .encabezado .panels-flexible-row-inside-first p,
 .not-front .panel-display .pane-custom .pane-content,
 .detalle-socios p{
 	text-align:center;
-	padding: 0px 50px;
-	font-size: 19px;
+	padding: 0px 10px;
+	font-size: 14px;
 	color: #808285;
-	line-height: 21px;
+	line-height: 18px;
 	font-family:'Open Sans', sans-serif;
 }
 .not-front .panel-display .pane-custom .pane-content{
@@ -938,28 +944,15 @@ page-servicios-para-pymes .main-content{
 
 /****/
 
-/*
-  =MEDIA QUERIES
---------------------------------------------- */
-@media only screen and (min-width: 30em) and (max-width: 35em) {
-
+/* Andrey Movil*/
+#panels-ipe-paneid-6{
+	width: 230px;
+	margin: auto;
 }
 
-@media only screen and (min-width: 35em) { /* > 560 */
-
+.view-servicios .box-imagen-servicio{
+	margin: 0px;
+	margin-bottom: 20px;
 }
 
-@media only screen and (min-width: 40em) { /* > 640 */
-
-}
-
-@media only screen and (min-width: 55em) { /* > 880 */
-
-}
-
-@media only screen and (min-width: 60em) { /* > 960 */
-
-}
-
-
-}
+/*******/
