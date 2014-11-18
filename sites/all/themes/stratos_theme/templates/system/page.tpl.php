@@ -37,7 +37,7 @@
 <?php endif; // end Above Content ?>
 
 <div class="main-content">
-  <?php if ($breadcrumb): ?>
+  <?php if ($breadcrumb && arg(0) != 'contactar'): ?>
     <?php print $breadcrumb; ?>
   <?php endif; ?>
 
