@@ -37,14 +37,14 @@ jQuery(document).ready(function(){
 
 	jQuery('.views-field-field-beneficios ul li:nth-child(3n+3)').addClass('nth-child-3th');
 
-	$('[placeholder]').focus(function() {
-	  var input = $(this);
+	jQuery('[placeholder]').focus(function() {
+	  var input = jQuery(this);
 	  if (input.val() == input.attr('placeholder')) {
 	    input.val('');
 	    input.removeClass('placeholder');
 	  }
 	}).blur(function() {
-	  var input = $(this);
+	  var input = jQuery(this);
 	  if (input.val() == '' || input.val() == input.attr('placeholder')) {
 	    input.addClass('placeholder');
 	    input.val(input.attr('placeholder'));
