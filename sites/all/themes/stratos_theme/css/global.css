@@ -218,6 +218,11 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	font-size: 15px;
 	color: #58595B;
 }
+
+.node-type-servicio .main h2 {
+	font-weight: 700;
+}
+
 .main h2{
 	color: #EA0028;
 	text-transform:uppercase;
@@ -398,7 +403,7 @@ ul.bullet_red li {
   margin-bottom: 5px;
   padding-left: 20px;
   background-image: url('../images/bullet_li.png');
-  background-position: 0px 50%;
+  background-position: 3px 1px;
   background-repeat: no-repeat;
   font-family:'Open Sans', sans-serif;
   color: #58595b;
@@ -463,6 +468,7 @@ ul.bullet_red{
 	font-size: 26px;
 }
 
+.panels-flexible-region-layout_servicios-bloque_top_der {float: right;}
 
 .view-servicios .box-imagen-servicio.b1 {
   margin: 0;
@@ -472,6 +478,7 @@ ul.bullet_red{
 }
 #block-views-91b64421d58dd8a04f68aa86a6b33fd4 .servicios-bloques-grande .box-imagen-servicio.b1{
 	background-image: url('../images/icon_1_g.png');
+	margin-right: 39px;
 }
 
 .view-servicios .box-imagen-servicio.b2 {
@@ -493,6 +500,7 @@ ul.bullet_red{
 }
 #block-views-91b64421d58dd8a04f68aa86a6b33fd4 .servicios-bloques-grande .box-imagen-servicio.b3{
 	 background-image: url('../images/icon_3_g.png');
+	 margin: 0;
 }
 
 .view-servicios .box-imagen-servicio.b4 {
@@ -601,6 +609,9 @@ ul.bullet_red{
 	font-size: 15px;	
 	color: #58595B;
 }
+
+.breadcrumb {margin-bottom:0.5em;}
+
 .not-front .main-content .breadcrumb a{
 
 }
@@ -899,7 +910,7 @@ ul.bullet_red{
      margin-right: 0px;
 }
 
-.nth-child-3th {
+.views-field-field-beneficios ul li.nth-child-3th {
      margin-right: 0px;
 }
 
@@ -1043,4 +1054,8 @@ ul.bullet_red{
 	margin-bottom: 20px;
 }
 
+.placeholder
+{
+  color: #aaa;
+}
 /*******/
