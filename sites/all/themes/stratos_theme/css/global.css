@@ -411,7 +411,9 @@ ul.bullet_red{
 }
 .view-servicios{
 	width: 100%;
-	height: auto;	
+	height: auto;
+	margin-left:  7px;
+
 }
 
 .page-servicios-para-empresarios .view-servicios  {margin-top: 90px;} 
@@ -608,8 +610,8 @@ ul.bullet_red{
 }
 
 .front .panel-flexible .panel-flexible-inside .panels-flexible-row-first{
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .panel-flexible .panel-flexible-inside .panels-flexible-row-first .box_h {
@@ -646,6 +648,7 @@ ul.bullet_red{
 }
 .panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home{
 	padding-right: 0px;
+	margin-bottom: 20px;
 }
 .panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home h2{
 	font-weight:bold;
@@ -801,8 +804,7 @@ ul.bullet_red{
 .page-servicios-para-pymes .view-servicios .box-imagen-servicio.b2,
 .page-servicios-para-pymes .view-servicios .box-imagen-servicio.b3,
 .page-servicios-para-pymes .view-servicios .box-imagen-servicio.b4{
-	margin-right: 20px;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 }
 .page-servicios-para-pymes .view-servicios .box-imagen-servicio.b4{
 	margin-right: 0px;

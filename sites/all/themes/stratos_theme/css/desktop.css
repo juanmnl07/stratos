@@ -141,5 +141,9 @@
   width: 190px;
 }
 
+.panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home{
+  margin-bottom: 0px;
+}
+
 
 }
