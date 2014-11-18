@@ -1,105 +1,21 @@
 @media only screen and (min-width: 30em) { /* > 480 */
 
-.title#page-title{
-	padding-top: 40px;
-	padding-bottom: 35px;
-	font-size: 35px;
-}
-
-.not-front .panel-flexible .panel-flexible-inside .encabezado .panels-flexible-row-inside-first p,
-.not-front .panel-display .pane-custom .pane-content,
-.detalle-socios p{
-	padding: 0px 50px;
-	font-size: 19px;
-	line-height: 21px;
-}
-.panel-flexible .panel-flexible-inside .panels-flexible-row-first{
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-#block-block-5 #bloque-comunidad p{
-	font-size: 19px;
-	line-height: 21px;
-	padding: 0px 60px;
-}
-
 #block-block-4 #cintillo h4,
 #block-block-6 #cintillo h4{
-	font-family: "Raleway", sans-serif;
-	font-size: 31px;
-	font-weight:500;
-	line-height: 118px;
-	text-transform:uppercase;
-	color: #FFFFFF;
-	float:left;
-	margin: 0px; padding: 0px;
-}
-#block-block-4 #cintillo a,
-#block-block-6 #cintillo a{
-	display: block;
-	width: 200px;
-	height: 45px;
-	margin-right: auto;
-	margin-left: auto;
-	border: 2px solid #FFF;
-	background-color: transparent;
-	font-family: "Raleway", sans-serif;
-	color: #FFF;
-	text-align:center;
-	line-height: 45px;
 	font-size: 20px;
-	font-weight: 500;
-	text-transform: uppercase;
-	cursor: pointer;
+	margin-top: 22px;
+	margin-bottom: 10px;
+	width: 100%;
 }
-#block-block-4 #cintillo .consultar,
-#block-block-6 #cintillo .consultar{
-	float:right;
-	margin-top: 38px;
+#block-block-5 #bloque-comunidad .logos-comunidad img{
+	margin-left: 5px;
 }
 
-#flexslider-1.flexslider .banner-grande-caption{
-	width: 515px;
-	height: 305px;
-	padding-top: 20px;
-	padding-right: 30px;
-	padding-left: 30px;
-	padding-bottom: 20px;
-	background-image: url('../images/bg_celeste_t.png');	
+#panels-ipe-paneid-6{
+	width: 100%;
+	margin: auto;
 }
-
-#flexslider-1.flexslider .banner-grande-caption .titulo p{
-	margin-bottom: 30px;
-	font-family: "Raleway", sans-serif;
-	color: white;
-	font-size: 27px;
-	line-height: 28px;
-	font-weight: 500;
-	padding-top: 0px;
-	margin-top: 0px;
-	text-transform: uppercase;	
-}
-
-#flexslider-1.flexslider .banner-grande-caption p.descripcion{
-	margin-bottom: 30px;
-	font-family:'Open Sans', sans-serif;
-	color: white;
-	font-size: 17px;
-	line-height: 23px;
-	font-weight: 400;	
-}
-#flexslider-1.flexslider .banner-grande-caption a{
-	font-family: "Raleway", sans-serif;
-	color: white;
-	font-size: 20px;
-	font-weight: 800;
-	padding-right: 25px;
-	text-decoration: none;
-	text-transform: uppercase;
-	background-image: url('../images/bullet_link.png');	
-	background-position: right center;
-	background-repeat: no-repeat;	
-}
+.servicios-bloques .view-content {width: 480px; margin: 0 auto;}
 
 .view-servicios .box-imagen-servicio.b1 {
   margin-right: 20px;
@@ -117,15 +33,6 @@
 #block-views-91b64421d58dd8a04f68aa86a6b33fd4 .servicios-bloques-grande .box-imagen-servicio.b4{
 	margin-right: 20px;
 }
-
-
-.logos-comunidad{
-	text-align: center;
-}
-#block-block-5 #bloque-comunidad .logos-comunidad img{
-	margin-left: 10px;
-}
-
 
 
 }

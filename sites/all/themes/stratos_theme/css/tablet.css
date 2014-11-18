@@ -1,5 +1,95 @@
 @media only screen and (min-width: 45em) { /* > 720 */
 
+.title#page-title{
+	padding-top: 15px;
+	padding-bottom: 30px;
+	font-size: 21px;
+}
+
+.not-front .panel-flexible .panel-flexible-inside .encabezado .panels-flexible-row-inside-first p,
+.not-front .panel-display .pane-custom .pane-content,
+.detalle-socios p{
+	padding: 0px 30px;
+	font-size: 15px;
+	line-height: 21px;
+}
+.panel-flexible .panel-flexible-inside .panels-flexible-row-first{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#block-block-5 #bloque-comunidad p{
+	font-size: 19px;
+	line-height: 21px;
+	padding: 0px 60px;
+}
+#block-block-5 #bloque-comunidad .logos-comunidad img{
+	margin-left: 10px;
+}
+
+
+#flexslider-1.flexslider .views-field-nothing{
+	position: absolute;
+	width: 1000px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	top: 30px;	
+}
+.block-webform{
+  width: 448px;
+  height: 595px;
+  margin: auto; 
+}
+
+
+.block-webform h2{
+	font-size: 32px;
+	line-height: 1.77777em;
+}
+.contenedor-webform p {
+	line-height: 20px;
+	font-size: 16px;
+}
+
+#flexslider-1.flexslider .banner-grande-caption{
+	width: 515px;
+	height: 305px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#flexslider-1.flexslider .banner-grande-caption .titulo p{
+	margin-bottom: 30px;
+	font-size: 27px;
+	line-height: 28px;
+}
+
+#flexslider-1.flexslider .banner-grande-caption p.descripcion{
+	margin-bottom: 30px;
+	font-size: 17px;
+	line-height: 23px;
+}
+#flexslider-1.flexslider .banner-grande-caption a{
+	font-size: 20px;	
+}
+
+#panels-ipe-paneid-6{
+	width: 100%;
+	margin: auto;
+}
+.view-servicios{
+	height: 311px;	
+}
+
+
+.logos-comunidad{
+	text-align: center;
+}
+#block-block-5 #bloque-comunidad .logos-comunidad img{
+	margin-left: 10px;
+	width: 180px;
+}
+
 
 
 }
