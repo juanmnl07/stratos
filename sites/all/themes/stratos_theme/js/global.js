@@ -69,7 +69,6 @@ jQuery(document).ready(function(){
 	  }
 	}).blur();
 
-});
 
     <!--Valida el formulario de comentarios-->
 	jQuery('.webform-client-form').on('submit', function(e){
@@ -97,6 +96,8 @@ jQuery(document).ready(function(){
 		}
 
 	});	
+
+});
 
 
 function wait(nsegundos) {
