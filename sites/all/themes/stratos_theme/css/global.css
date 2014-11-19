@@ -115,6 +115,7 @@ a:active {
 .header #logo{
 	float:left;
 	margin-top: 25px;
+	width: 80%;
 }
 
 nav#block-system-main-menu{
@@ -171,7 +172,8 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	min-height: 280px;
 }
 .footer .grid #logo-footer{
-	float:left;
+	margin: 0 auto;
+	width: 302px;
 }
 
 .footer .grid #block-block-2{
@@ -179,15 +181,13 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 }
 .footer .grid .block-menu-block{
 	float:left;
+	width: 100%;
+	margin-top: 15px;
 }
-.footer .grid #block-menu-block-1{
-	width: 250px;
-}
-.footer .grid #block-menu-block-2{
-	width: 230px;
-}
-.footer .grid #block-menu-block-3{
-	width: 210px;
+
+.footer .grid .block-menu-block .content .menu {
+	width: 100%;
+	text-align: center;
 }
 
 .footer .grid .block-menu-block .content .menu-block-wrapper ul{
@@ -1183,9 +1183,46 @@ transition: all 400ms ease-out;
 .page-contactar #flexslider-1.flexslider .banner-grande-caption a {
    text-transform: lowercase;
 }
+
 .panels-flexible-layout_servicios .panels-flexible-region-inside-first{
 	padding-left: 0.5em;
 }
 .panels-flexible-layout_servicios .panels-flexible-region-inside{
 	padding-right: 0.5em;
+}
+
+.slicknav_menu{
+	background: #58595B !important;
+	position: absolute;
+	border-radius: 5px;
+	padding: 0px !important;
+	right: 5px;
+	top: 85px;
+	z-index: 2000;
+}
+
+.slicknav_nav {
+	width: 300px;
+	position: relative;
+}
+
+.slicknav_nav a{
+	color: #fff;
+	font-weight: 400;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+}
+
+.slicknav_nav a.active{
+	font-weight: 600 !important;
+	background-color: #fff !important;
+	border-radius: 5px !important;
+}
+
+.slicknav_btn {
+	background-color: transparent !important;
+}
+
+#block-system-main-menu {
+	display: none;
 }

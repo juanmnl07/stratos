@@ -51,9 +51,11 @@ stylesheets[all][] = css/global.css
 stylesheets[all][] = css/movil-landscape.css
 stylesheets[all][] = css/tablet.css
 stylesheets[all][] = css/desktop.css
+stylesheets[all][] = SlickNav-master/slicknav.css
 
 ;-------------- JS -------------
 scripts[] = js/global.js
+scripts[] = SlickNav-master/jquery.slicknav.js
 
 
 ; Information added by drupal.org packaging script on 2013-10-01
