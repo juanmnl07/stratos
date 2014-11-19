@@ -246,6 +246,10 @@ color: #EA0028;
 
 /* Andrey 11-11-2014 :: servicios-para-empresarios */
 
+.f-peq #flexslider-1.flexslider img, .f-peq #flexslider-1.flexslider{
+  max-height: 150px;
+  min-height: 150px;
+}
 
 #flexslider-1.flexslider img{
 	/*width: 1200px !important;*/
@@ -323,7 +327,7 @@ border-top: 1px solid #ddd;
 }
 
 .front #flexslider-1.flexslider .banner-grande-caption{
-	width: 450px;
+	width: 100%;
 	height: 230px;
 }
 .front #flexslider-1.flexslider .banner-grande-caption p.titulo{
@@ -663,7 +667,7 @@ ul.bullet_red{
 	color: #58595B;
 }
 
-.breadcrumb {margin-bottom:0.5em;}
+.breadcrumb {margin-bottom:0.5em; margin-right: 5px;}
 
 .not-front .main-content .breadcrumb a{
 
@@ -712,7 +716,7 @@ ul.bullet_red{
 	padding-top: 40px;
 }
 
-.node-type-servicio #accordion {margin-top: 0px; padding-left: 0px;}
+#accordion {margin-top: 0px; padding-left: 0px;}
 
 .panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home{
 	padding-right: 0px;
@@ -777,13 +781,14 @@ ul.bullet_red{
 	font-family: "Raleway", sans-serif;
 	font-size: 20px;
 	font-weight:500;
-	line-height: 24px;
+	line-height: 20px;
 	text-transform:uppercase;
 	color: #FFFFFF;
 	float:left;
 	text-align: center;
 	margin: 0px; padding: 0px;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #block-block-5{
@@ -953,10 +958,10 @@ transition: all 400ms ease-out;
 }
 
 .page-invertir-en-empresas-costa-rica .panel-flexible .panel-flexible-inside .panels-flexible-row-last{
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 .page-invertir-en-empresas-costa-rica .panel-flexible .panel-flexible-inside .panels-flexible-region-first .pane-content{
-	padding-right: 50px;
+	padding-right: 0px;
 }
 
 .panels-flexible-region-layout_servicios-bloques_beneficios { width: 100%; }

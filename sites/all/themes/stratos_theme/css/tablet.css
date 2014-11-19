@@ -33,7 +33,6 @@
 
 #flexslider-1.flexslider .views-field-nothing{
 	position: absolute;
-	width: 1000px;
 	left: 0px;
 	right: 0px;
 	margin: auto;
@@ -166,8 +165,17 @@
 }
 
 
+.front #flexslider-1.flexslider .banner-grande-caption{
+	width: 450px;
+	height: 230px;
+}
 
+.page-invertir-en-empresas-costa-rica .panel-flexible .panel-flexible-inside .panels-flexible-region-first .pane-content{
+	padding-right: 10px;
+}
 
-
+.page-invertir-en-empresas-costa-rica .panel-flexible .panel-flexible-inside .panels-flexible-row-last{
+	padding-bottom: 10px;
+}
 
 }

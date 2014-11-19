@@ -73,6 +73,7 @@
 
 #flexslider-1.flexslider .views-field-nothing{
   top: 130px; 
+  width: 1000px;
 }
 
 #flexslider-1.flexslider .banner-grande-caption{
@@ -81,7 +82,7 @@
   padding-right: 30px;
   padding-left: 30px;
 }
-.f-peq #flexslider-1.flexslider img{
+.f-peq #flexslider-1.flexslider img, .f-peq #flexslider-1.flexslider{
   max-height: 211px;
   min-height: 211px;
 }
@@ -296,11 +297,17 @@
   margin-right: 0px;
 }
 
+.breadcrumb {margin: 0 auto;}
 
 
 
+.page-invertir-en-empresas-costa-rica .panel-flexible .panel-flexible-inside .panels-flexible-region-first .pane-content{
+  padding-right: 50px;
+}
 
-
+.page-invertir-en-empresas-costa-rica .panel-flexible .panel-flexible-inside .panels-flexible-row-last{
+  padding-bottom: 50px;
+}
 
 
 
