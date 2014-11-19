@@ -15,6 +15,25 @@ jQuery(document).ready(function(){
 		}  else {
 		box.show().animate({"transform": "scale(0,0)"});
 	}
+
+	
+    <!--Script efecto scroll a las anclas-->
+	jQuery('.banner-grande-caption a[href*=#]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    if(target != ''){
+		    arget = jQuery(target);
+
+		    jQuery('html, body').stop().animate({
+		        'scrollTop': arget.offset().top
+		    }, 900, 'swing', function () {
+		        window.location.hash = target;
+		    });
+		}else{
+			return true;
+		}
+	});	
 	
 	jQuery(".box-cotainer").hover(function() {
 		var boxinfo = jQuery(this).find( ".roll-over" );
@@ -34,8 +53,7 @@ jQuery(document).ready(function(){
 
 
 	jQuery( "#accordion" ).accordion();
-
-	jQuery('.views-field-field-beneficios ul li:nth-child(3n+3)').addClass('nth-child-3th');
+        jQuery('.views-field-field-beneficios ul li:nth-child(3n+3)').addClass('nth-child-3th');
 
 	jQuery('[placeholder]').focus(function() {
 	  var input = jQuery(this);
@@ -52,3 +70,36 @@ jQuery(document).ready(function(){
 	}).blur();
 
 });
+
+    <!--Valida el formulario de comentarios-->
+	jQuery('.webform-client-form').on('submit', function(e){
+		e.preventDefault();
+		var v = 1;
+		jQuery(this).find(':input,textarea').each(function() {
+			var valor = this.value;
+			var req = jQuery("#"+this.id).hasClass("required");
+			if(req == true && (valor) == "" || (valor) == null || (valor) == jQuery("#"+this.id).attr('placeholder')) {
+				alert('Campos obligatorios estan vacios');
+				jQuery("#"+this.id).focus();
+				v = 0;return false;
+			}					
+			if((this.id)=='edit-submitted-correo'){
+				var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+				if (!regex.test(valor)) {
+					alert('Por favor digite un E-mail válido');
+					jQuery("#"+this.id).focus();
+					v = 0;return false;
+				}
+			}
+		});	
+		if(v == 1){
+			this.submit();
+		}
+
+	});	
+
+
+function wait(nsegundos) {
+objetivo = (new Date()).getTime() + 1000 * Math.abs(nsegundos);
+while ( (new Date()).getTime() < objetivo );
+};

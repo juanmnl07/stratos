@@ -48,8 +48,8 @@ function stratos_theme_preprocess_html(&$variables) {
     '#tag' => 'meta',
     '#attributes' => array(
       'name' => 'viewport',
-      'content' => 'width=device-width, initial-scale=1',
-      //'content' => 'width=1024',
+      //'content' => 'width=device-width, initial-scale=1',
+      'content' => 'width=1024',
     ),
   );
   drupal_add_html_head($meta_viewport, 'meta_viewport');
@@ -88,7 +88,7 @@ function stratos_theme_preprocess_html(&$variables) {
   }
 
   // Js Andrey
-  drupal_add_js('//code.jquery.com/ui/1.11.2/jquery-ui.js');
+  drupal_add_js('https://code.jquery.com/ui/1.11.2/jquery-ui.js');
   drupal_add_js(drupal_get_path('theme', 'stratos_theme') . '/js/jquery.transform2d.js', array('group' => CSS_SYSTEM, 'weight' => -100));
 
   // Use normalize.css
