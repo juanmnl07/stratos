@@ -1,5 +1,13 @@
 jQuery.noConflict(); 
 jQuery(document).ready(function(){
+
+	//agregar menu slicknav (responsivo)
+	 $('#block-system-main-menu .menu').slicknav({
+            label: '',
+            duration: 1000,
+            easingOpen: "easeOutBounce", //available with jQuery UI
+            prependTo:'#block-system-main-menu'
+        });
 	
 	var IE = '';
 	if(jQuery.browser.msie == true){
