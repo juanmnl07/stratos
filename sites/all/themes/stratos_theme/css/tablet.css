@@ -117,11 +117,43 @@
 	margin-top: 0px;
 }
 
-#block-system-main-menu {
-	display: block;
+
+.view-servicios{	
+	margin-top: 0px;
 }
 
-.slicknav_menu {display: none;}
+.panel-flexible .panel-flexible-inside .Centrado .box_stratos {
+  width: 31%;
+  margin-left: 15px;
+}
+.panel-flexible .panel-flexible-inside .Centrado .box_stratos.st1 {
+  margin-left: 15px;
+}
+
+.panel-flexible .panel-flexible-inside .Centrado .box_stratos_descript {
+  font-size: 15px;
+}
+
+.panel-flexible .panel-flexible-inside .Centrado .box_stratos_titulo {
+  font-size: 17px;
+}
+
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row{
+	margin-left: 15px;
+	float:left;
+	margin-bottom: 30px;
+	margin-right: 109px;
+}
+
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-3,
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-6,
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-9,
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-12,
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-15,
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-18
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-21{
+	margin-right: 0px;
+}
 
 .beneficios-bloques .views-row{
 	width: 580px;

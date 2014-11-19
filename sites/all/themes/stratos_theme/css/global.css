@@ -91,6 +91,7 @@ a:active {
 }
 .header .utility-bar #cambio-idioma{
 	float:right;
+	margin-right: 5px;
 }
 .header .utility-bar #cambio-idioma a{
 	display:block;
@@ -452,6 +453,10 @@ ul.bullet_red{
 
 .page-servicios-para-pymes .view-servicios{
 	height: 200px;	
+}
+
+.view-servicios{
+	margin-top: 35px;
 }
 
 .page-servicios-para-pymes .panel-1col .panel-col{
@@ -835,9 +840,9 @@ ul.bullet_red{
 	padding-bottom: 50px;
 }
 .panel-flexible .panel-flexible-inside .Centrado .box_stratos {
-  width: 320px;
+  width: 100%;
   height: 310px;
-  margin-left: 15px;
+  margin-left: 0px;
   padding-top: 180px;
   padding-right: 20px;
   padding-left: 20px;
@@ -1105,9 +1110,8 @@ background-position: 8px center;
 
 #block-views-socios-block-socios-resumenes .bloques-socios .views-row{
 	width: 233px;
-	float:left;
-	margin-right: 150px;
-	margin-bottom: 30px;
+	margin: 0 auto;
+	margin-bottom: 100px;
 }
 
 #block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-title{
@@ -1155,16 +1159,6 @@ transition: all 400ms ease-out;
    padding-top: 0px;
 }
 
-
-#block-views-socios-block-socios-resumenes .bloques-socios .views-row-3,
-#block-views-socios-block-socios-resumenes .bloques-socios .views-row-6,
-#block-views-socios-block-socios-resumenes .bloques-socios .views-row-9,
-#block-views-socios-block-socios-resumenes .bloques-socios .views-row-12,
-#block-views-socios-block-socios-resumenes .bloques-socios .views-row-15,
-#block-views-socios-block-socios-resumenes .bloques-socios .views-row-18
-#block-views-socios-block-socios-resumenes .bloques-socios .views-row-21{
-	margin-right: 0px;
-}
 
 .banner-grande-caption .correo a {background-image: none !important;}
 .banner-grande-caption .telefono span, .banner-grande-caption .direccion span, .banner-grande-caption .correo a {color: #fff; font-size: 17px !important; font-weight: 500 !important;}
