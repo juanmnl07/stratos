@@ -90,6 +90,33 @@
 	width: 180px;
 }
 
+.footer .grid #block-menu-block-1{
+	width: 15%;
+}
+.footer .grid #block-menu-block-2{
+	width: 25%;
+}
+.footer .grid #block-menu-block-3{
+	width: 15%;
+}
 
+.footer .grid #logo-footer{
+	float:left;
+}
+
+.footer .grid .block-menu-block .content .menu {
+	width: auto;
+	text-align: left;
+}
+
+.footer .grid .block-menu-block{
+	margin-top: 0px;
+}
+
+#block-system-main-menu {
+	display: block;
+}
+
+.slicknav_menu {display: none;}
 
 }
