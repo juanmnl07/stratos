@@ -62,6 +62,9 @@
   margin-right: 0px;
   margin-left: 7px;
 }
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4 .servicios-bloques-grande .views-row-3 .roll-over{
+  margin-left: 7px;
+}
 
 .view-servicios .box-imagen-servicio.b3 {
   margin-right: 20px;
@@ -220,10 +223,13 @@
 }
 
 .views-field-field-beneficios ul li{
-  width: 320px;
+  width: 323px;
   height: 260px;
   padding: 20px;
   margin-right: 15px;
+}
+.views-field-field-beneficios ul li.nth-child-3th{
+  margin-right: 0px;
 }
 .views-field-field-beneficios ul li .beneficios-titulo p{
   font-size: 21px;
@@ -235,23 +241,25 @@
 .view-servicios{
   height: 311px;  
 }
-.view-servicios.beneficios-bloques .views-row{
+.beneficios-bloques .views-row{
   width: auto;
   margin: 0;
   float: left;
 }
-/*.view-servicios.servicios-bloques-grande .views-row{
-  width: auto;
-  margin: 0;
-  float: left;
-} */
 
 #block-views-91b64421d58dd8a04f68aa86a6b33fd4 .view-servicios{
+  width: auto;
   height: 360px;
+}
+.view-servicios.servicios-bloques-grande .views-row{
+  width: auto;
+  float: left;
+  display: block;
 }
 .servicios-bloques-grande .box-imagen-servicio{
   width: 307px;
-  height: 193px;  
+  height: 193px;
+  margin-right: 20px;  
 }
 #block-views-91b64421d58dd8a04f68aa86a6b33fd4 div[class^=roll-over]{
   width: 307px;
