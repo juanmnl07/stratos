@@ -204,7 +204,17 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	font-size: 14px;
 	color: #FFFFFF;	
 	text-transform: uppercase;
+-webkit-transition: all 400ms ease-out;
+-moz-transition: all 400ms ease-out;
+-ms-transition: all 400ms ease-out;
+-o-transition: all 400ms ease-out;
+transition: all 400ms ease-out;        
 }
+
+.footer .grid .block-menu-block .content ul li a:hover{
+color: #EA0028;
+}
+
 .footer .grid .block-menu-block .content ul li a.active, .footer .grid .block-menu-block .content ul li.active-trail a{
 	font-weight:700;
 }
@@ -245,8 +255,10 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	box-shadow: none;
 	position:relative;
 }
-.view-banner-grande .view-content{
-	border-bottom: 1px solid #58595B;
+
+.above-content {
+border-bottom: 1px solid #ddd;
+border-top: 1px solid #ddd;
 }
 
 #flexslider-1.flexslider .views-field-nothing{
@@ -398,6 +410,12 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	font-weight: 500;
 	text-transform: uppercase;
 	cursor: pointer;
+transition: background-color 1s ease;
+}
+
+.block-webform .webform-client-form .form-submit:hover{
+        background-color: #ea0028;
+        color: #fff;
 }
 
 ul.bullet_red li {
@@ -438,6 +456,7 @@ ul.bullet_red{
 	height: 144px;
 	float: left;
 	background-color: #00aced;
+        cursor: pointer;
 }
 #block-views-91b64421d58dd8a04f68aa86a6b33fd4 .view-servicios{
 	height: 360px;
@@ -657,6 +676,9 @@ ul.bullet_red{
 	padding-bottom: 40px;
 	padding-top: 40px;
 }
+
+.node-type-servicio #accordion {margin-top: 0px;}
+
 .panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home{
 	padding-right: 0px;
 	margin-bottom: 20px;
@@ -677,9 +699,14 @@ ul.bullet_red{
 	text-transform:uppercase;
 	color: #EA0028;
 	border: solid 2px #EA0028;
-	margin-top: 45px;
+        margin-top: 45px;
+         transition: background-color 1s ease;
 }
 
+.panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home a:hover{
+       background-color: #EA0028;
+       color: #fff;
+}
 
 #block-block-4,
 #block-block-6{
@@ -707,6 +734,7 @@ ul.bullet_red{
 	font-weight: 500;
 	text-transform: uppercase;
 	cursor: pointer;
+        transition: background-color 1s ease;
 }
 #block-block-4 #cintillo h4,
 #block-block-6 #cintillo h4{
@@ -742,12 +770,29 @@ ul.bullet_red{
 }
 .logos-comunidad{
 	text-align: center;
+	height: 100px;
 }
 #block-block-5 #bloque-comunidad .logos-comunidad img{
 	margin-left: none;
-	width: 190px;
-	margin: auto;
+	/*width: 190px;
+	margin: auto;*/
+height: 90px;
+        -webkit-transition: all 400ms ease-out;
+-moz-transition: all 400ms ease-out;
+-ms-transition: all 400ms ease-out;
+-o-transition: all 400ms ease-out;
+transition: all 400ms ease-out;
 }
+
+.logos-comunidad>div {
+float: left;
+height: 90px;
+}
+
+#block-block-5 #bloque-comunidad .logos-comunidad img:hover{
+margin-top: 10px;
+}
+
 
 .not-front .panel-flexible .panel-flexible-inside .encabezado .panels-flexible-row-inside-first p,
 .not-front .panel-display .pane-custom .pane-content,
@@ -848,7 +893,16 @@ ul.bullet_red{
   
   border: none;
   border-radius: 0px;
-    
+  -webkit-transition: all 400ms ease-out;
+-moz-transition: all 400ms ease-out;
+-ms-transition: all 400ms ease-out;
+-o-transition: all 400ms ease-out;
+transition: all 400ms ease-out;	  
+}
+
+#accordion .ui-accordion-header:hover {
+    padding-left: 30px;
+  background-position: 97% 50%;
 }
 #accordion .ui-accordion-header span{
 	display: none;
@@ -877,7 +931,7 @@ ul.bullet_red{
 	padding-right: 50px;
 }
 
-
+.panels-flexible-region-layout_servicios-bloques_beneficios { width: 100%; }
 
 /*.node-type-servicio .panel-flexible .panel-flexible-inside .panels-flexible-row-first*/
 .node-type-servicio .main-content{
@@ -942,9 +996,35 @@ ul.bullet_red{
   background-position: left center;
   font-family: Raleway, sans-serif;
   color: #ea0028;
-  font-size: 22px;
+  font-size: 21px;
   text-transform: uppercase;
+-webkit-transition: all 400ms ease-out;
+-moz-transition: all 400ms ease-out;
+-ms-transition: all 400ms ease-out;
+-o-transition: all 400ms ease-out;
+transition: all 400ms ease-out;	
 }
+
+#logo-footer,
+#logo,
+nav#block-system-main-menu ul.menu li.leaf a{
+-webkit-transition: all 400ms ease-out;
+-moz-transition: all 400ms ease-out;
+-ms-transition: all 400ms ease-out;
+-o-transition: all 400ms ease-out;
+transition: all 400ms ease-out;	
+}
+#logo-footer:hover,
+#logo:hover{
+transform: scale(0.9);
+
+}
+
+.views-field-field-beneficios ul li:hover .beneficios-titulo p{
+padding-left: 55px;
+background-position: 8px center;
+}
+
 .views-field-field-beneficios ul li .una-linea p{
 	line-height: 32px;
 } 
@@ -953,6 +1033,11 @@ ul.bullet_red{
 }
 /*.views-field-field-beneficios ul li .tres-lineas p{
 } */
+
+
+#caption-flexslider{
+	visibility: hidden;
+}
 
 .views-field-field-beneficios ul li .beneficios-contenido {
   font-family:'Open Sans', sans-serif;
@@ -1008,6 +1093,7 @@ ul.bullet_red{
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	padding-bottom: 10px;
+        width:65%;
 }
 #block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-field-relacion{
 	font-family: Raleway, sans-serif;
@@ -1026,7 +1112,23 @@ ul.bullet_red{
 }
 #block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-nothing .redes-sociales a{
 	margin-right: 5px;
+        display: block;
+        float: left;
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+        -webkit-transition: all 400ms ease-out;
+-moz-transition: all 400ms ease-out;
+-ms-transition: all 400ms ease-out;
+-o-transition: all 400ms ease-out;
+transition: all 400ms ease-out;	
 }
+
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-nothing .redes-sociales a:hover{
+   padding-top: 0px;
+}
+
+
 #block-views-socios-block-socios-resumenes .bloques-socios .views-row-3,
 #block-views-socios-block-socios-resumenes .bloques-socios .views-row-6,
 #block-views-socios-block-socios-resumenes .bloques-socios .views-row-9,
@@ -1062,4 +1164,16 @@ ul.bullet_red{
 {
   color: #aaa;
 }
-/*******/
+
+#caption-flexslider{
+	visibility: hidden;
+}
+
+#block-block-4 #cintillo a:hover,  #block-block-6 #cintillo a:hover {
+  color: #EA0028;
+  background-color: #fff;
+}
+
+.page-contactar #flexslider-1.flexslider .banner-grande-caption a {
+   text-transform: lowercase;
+}
