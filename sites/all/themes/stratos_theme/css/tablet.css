@@ -4,12 +4,13 @@
 	padding-top: 15px;
 	padding-bottom: 30px;
 	font-size: 21px;
+	line-height: 30px;
 }
 
 .not-front .panel-flexible .panel-flexible-inside .encabezado .panels-flexible-row-inside-first p,
 .not-front .panel-display .pane-custom .pane-content,
-.detalle-socios p{
-	padding: 0px 30px;
+.detalle-socios p{ 
+
 	font-size: 15px;
 	line-height: 21px;
 }
@@ -26,6 +27,9 @@
 	margin-left: 10px;
 }
 
+.logos-comunidad{
+	width: 585px;
+}
 
 #flexslider-1.flexslider .views-field-nothing{
 	position: absolute;
@@ -50,7 +54,9 @@
 	line-height: 20px;
 	font-size: 16px;
 }
-
+#flexslider-1.flexslider .banner-grande-caption.peq{
+	margin-top: 25px;
+}
 #flexslider-1.flexslider .banner-grande-caption{
 	width: 515px;
 	height: 305px;

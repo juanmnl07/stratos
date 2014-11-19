@@ -81,6 +81,22 @@
   padding-right: 30px;
   padding-left: 30px;
 }
+.f-peq #flexslider-1.flexslider img{
+  max-height: 211px;
+  min-height: 211px;
+}
+
+#flexslider-1.flexslider .banner-grande-caption.peq{
+  width: 320px;
+  height: 72px;
+  margin-top: -43px;
+}
+#flexslider-1.flexslider .banner-grande-caption.peq .titulo p{
+  font-weight:800;
+  text-align:center;
+  font-size: 35px;
+  line-height: 47px;
+}
 
 #flexslider-1.flexslider .banner-grande-caption .titulo p{
   margin-bottom: 30px;
@@ -130,7 +146,13 @@
   clear: none;
 }
 
-
+.page-servicios-para-pymes .view-servicios .box-imagen-servicio.b1,
+.page-servicios-para-pymes .view-servicios .box-imagen-servicio.b2,
+.page-servicios-para-pymes .view-servicios .box-imagen-servicio.b3,
+.page-servicios-para-pymes .view-servicios .box-imagen-servicio.b4{
+  margin-right: 20px;
+  
+}
 .title#page-title{
   padding-top: 40px;
   padding-bottom: 35px;
@@ -139,7 +161,8 @@
 .not-front .panel-flexible .panel-flexible-inside .encabezado .panels-flexible-row-inside-first p,
 .not-front .panel-display .pane-custom .pane-content,
 .detalle-socios p{
-  padding: 0px 50px;
+  padding-right: 30px;
+  padding-left: 30px;
   font-size: 19px;
   line-height: 21px;
 }
@@ -154,6 +177,75 @@
 .panel-flexible .panel-flexible-inside .seg-fila .bloque-servicios-home{
   margin-bottom: 0px;
 }
+
+
+.logos-comunidad{
+  width: 100%;
+  height: 100px;
+}
+#block-block-5 #bloque-comunidad .logos-comunidad div img{
+  margin: 0px;
+  margin-left: 5px;
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+}
+
+.logos-comunidad>div {
+  float: left;
+  height: 90px;
+  margin-bottom: 0px;
+}
+
+#block-block-5 #bloque-comunidad .logos-comunidad div img:hover{
+  margin-top: 10px;
+}
+
+.panels-flexible-layout_servicios .panels-flexible-region-inside-first{
+  padding-left: 0px;
+}
+.panels-flexible-layout_servicios .panels-flexible-region-inside{
+  padding-right: 0px;
+}
+
+.views-field-field-beneficios ul li{
+  width: 320px;
+  height: 260px;
+  padding: 20px;
+  margin-right: 15px;
+}
+.views-field-field-beneficios ul li .beneficios-titulo p{
+  font-size: 21px;
+}
+.views-field-field-beneficios ul li .beneficios-contenido p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
