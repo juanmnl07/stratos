@@ -194,7 +194,7 @@
 }
 #block-block-5 #bloque-comunidad .logos-comunidad div img{
   margin: 0px;
-  margin-left: 5px;
+  margin-left: 10px;
   -webkit-transition: all 400ms ease-out;
   -moz-transition: all 400ms ease-out;
   -ms-transition: all 400ms ease-out;
@@ -233,12 +233,43 @@
   line-height: 20px;
 }
 
+#block-system-main-menu {
+  display: block;
+}
+
+.view-servicios {
+   margin-left: 7px; 
+}
+
+.slicknav_menu {display: none;}
+
+.header .utility-bar #cambio-idioma {
+  margin-right: 0px;
+}
+
+.panel-flexible .panel-flexible-inside .Centrado .box_stratos_descript {
+  font-size: 19px;
+}
+
+.panel-flexible .panel-flexible-inside .Centrado .box_stratos_titulo {
+  font-size: 25px;
+}
 
 
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row{
+  margin-right: 150px;
+  margin-left: 0px;
+}
 
-
-
-
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-3,
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-6,
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-9,
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-12,
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-15,
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-18
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row-21{
+  margin-right: 0px;
+}
 
 
 
