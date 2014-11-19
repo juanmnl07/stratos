@@ -1,0 +1,79 @@
+.panels-flexible-layout_servicios .panels-flexible-region {
+  padding: 0;
+}
+
+.panels-flexible-layout_servicios .panels-flexible-region-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-layout_servicios .panels-flexible-region-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-layout_servicios .panels-flexible-region-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-layout_servicios .panels-flexible-column {
+  padding: 0;
+}
+
+.panels-flexible-layout_servicios .panels-flexible-column-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-layout_servicios .panels-flexible-column-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-layout_servicios .panels-flexible-column-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-layout_servicios .panels-flexible-row {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.panels-flexible-layout_servicios .panels-flexible-row-last {
+  padding-bottom: 0;
+}
+
+.panels-flexible-column-layout_servicios-main {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-layout_servicios-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-layout_servicios {
+  width: auto;
+}
+
+.panels-flexible-region-layout_servicios-center {
+  float: left;
+  width: 49.5000%;
+}
+
+.panels-flexible-region-layout_servicios-bloque_top_der {
+  float: left;
+  width: 49.5000%;
+}
+
+.panels-flexible-row-layout_servicios-main-row-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-layout_servicios-bloques_beneficios {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-layout_servicios-1-inside {
+  padding-right: 0px;
+}
+

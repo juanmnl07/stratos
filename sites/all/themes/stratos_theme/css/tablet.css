@@ -83,9 +83,7 @@
 	width: 100%;
 	margin: auto;
 }
-.view-servicios{
-	height: 311px;	
-}
+
 
 
 .logos-comunidad{
@@ -124,5 +122,20 @@
 }
 
 .slicknav_menu {display: none;}
+
+.view-servicios.beneficios-bloques .views-row{
+	width: 580px;
+}
+.view-servicios.servicios-bloques-grande .views-row{
+	width: 580px;
+}
+.views-field-field-beneficios ul li{
+	margin-right: 10px !important;
+}
+
+
+
+
+
 
 }
