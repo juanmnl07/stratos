@@ -154,16 +154,21 @@
 	margin-right: 0px;
 }
 
-.view-servicios.beneficios-bloques .views-row{
+.beneficios-bloques .views-row{
 	width: 580px;
+}
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4 .view-servicios{
+	width: 600px;
+	margin: auto;
 }
 .view-servicios.servicios-bloques-grande .views-row{
-	width: 580px;
+	width: 300px;
+	float: left;
 }
-.views-field-field-beneficios ul li{
-	margin-right: 10px !important;
+.views-field-field-beneficios ul li,
+.views-field-field-beneficios ul li.nth-child-3th{
+	margin-right: 10px;
 }
-
 
 .front #flexslider-1.flexslider .banner-grande-caption{
 	width: 450px;
@@ -172,6 +177,14 @@
 
 .page-invertir-en-empresas-costa-rica .panel-flexible .panel-flexible-inside .panels-flexible-region-first .pane-content{
 	padding-right: 10px;
+}
+.servicios-bloques-grande .box-imagen-servicio{
+	width: 285px;
+	height: 180px;
+}
+#block-views-91b64421d58dd8a04f68aa86a6b33fd4 div[class^=roll-over]{
+  width: 285px;
+  height: 180px;
 }
 
 .page-invertir-en-empresas-costa-rica .panel-flexible .panel-flexible-inside .panels-flexible-row-last{
