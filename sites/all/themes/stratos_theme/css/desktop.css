@@ -341,8 +341,9 @@
 }
 
 
-
-
+#accordion .ui-accordion-content {
+  padding: 20px;
+}
 
 
 

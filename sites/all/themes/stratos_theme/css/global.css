@@ -931,7 +931,7 @@ ul.bullet_red{
   background-color: #00aced;
   font-family: Raleway, sans-serif;
   color: white;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 50px;
   text-decoration: none;
   text-transform: uppercase;
@@ -963,12 +963,12 @@ transition: all 400ms ease-out;
 }
 
 #accordion .ui-accordion-content {
-  padding: 20px;
+  padding: 5px 20px;
   background-color: white;
   font-family:'Open Sans', sans-serif;
   color: #58595b;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 16px;
   border: none;
   border-radius: 0px;  
 }
