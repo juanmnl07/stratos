@@ -47,6 +47,18 @@
   max-height: 630px;
 }
 
+.f-peq #flexslider-1.flexslider img, .f-peq #flexslider-1.flexslider{
+  min-height: 630px;
+  max-height: 630px;
+}
+
+#flexslider-1.flexslider img{
+  width: 100% !important;
+  max-width: none;
+  min-height: 150px;
+
+}
+
 .view-servicios .box-imagen-servicio{
   padding-left: 7px;
 }

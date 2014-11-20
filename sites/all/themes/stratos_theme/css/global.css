@@ -254,13 +254,20 @@ color: #EA0028;
 
 /* Andrey 11-11-2014 :: servicios-para-empresarios */
 
-.f-peq #flexslider-1.flexslider img, .f-peq #flexslider-1.flexslider{
-  max-height: 150px;
-  min-height: 150px;
+.f-peq #flexslider-1.flexslider img{
+	min-width: 1000px;
+	max-height: 150px;
+  	min-height: 150px;
+  	float: right;
 }
+.f-peq #flexslider-1.flexslider{
+	overflow: hidden;
+}
+/*.f-peq #flexslider-1.flexslider img{
+	float: right;
+}*/
 
 #flexslider-1.flexslider img{
-	/*width: 1200px !important;*/
 	max-width: none;
 	min-height: 150px;
 
