@@ -1,5 +1,9 @@
 @media only screen and (min-width: 62.5em) { /* > 1000 */
 
+.header #logo {
+  padding-left: 0px;
+}
+
   .header .grid,
   .panels-flexible-row-inside,
   .panels-ipe-portlet-content,
@@ -40,6 +44,7 @@
 
 #flexslider-1.flexslider img{
   min-height: 630px;
+  max-height: 630px;
 }
 
 .view-servicios .box-imagen-servicio{
@@ -159,6 +164,8 @@
 .title#page-title{
   padding-top: 40px;
   padding-bottom: 35px;
+  padding-left: 5px;
+  padding-right: 5px;
   font-size: 35px;
 }
 .not-front .panel-flexible .panel-flexible-inside .encabezado .panels-flexible-row-inside-first p,
@@ -169,6 +176,12 @@
   font-size: 19px;
   line-height: 21px;
 }
+
+.pane-content{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .panel-flexible .panel-flexible-inside .panels-flexible-row-first{
   padding-top: 60px;
   padding-bottom: 60px;
@@ -316,9 +329,16 @@
   padding-bottom: 50px;
 }
 
+.footer .grid #logo-footer {
+  padding-left: 0px;
+}
 
-
-
+.panel-flexible .panel-flexible-inside .panels-flexible-row-first .box_h_titulo {
+  font-size: 24px;
+}
+.panel-flexible .panel-flexible-inside .panels-flexible-row-first .box_h_descripcion {
+  font-size: 15px;
+}
 
 
 
