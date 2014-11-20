@@ -997,6 +997,8 @@ transition: all 400ms ease-out;
 	background-color: #FFFFFF;
 }
 
+.page-servicios-para-pymes .pane-custom.pane-1 {margin: 25px 0px 45px 0px;}
+
 .panel-flexible .panel-flexible-inside .filla-beneficios{
 	background-image: url("../images/bg_recuadros_bene.png");
 	background-repeat: no-repeat;
