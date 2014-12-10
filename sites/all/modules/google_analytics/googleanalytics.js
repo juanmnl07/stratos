@@ -23,12 +23,15 @@ $(document).ready(function() {
       }
   });
   <!--Google Analytics Evento Clic-->
-  /*
-  ----- Ejemplo -----
-  $("#matricula-aqui").on('click',function(){
-    ga('send', 'event', 'Botón matricula aquí', 'Botón: Barra Superior',urlactual);
+  
+  $(".consultar a").on('click',function(){
+    ga('send', 'event', 'Consultar', 'Botón: Cintillo Consultar',urlactual);
   });  
-*/
+
+  $(".node-type-socios .pane-1 a").on('click',function(){
+    ga('send', 'event', 'Contactar', 'Botón: Contactar socio',urlactual);
+  });
+
   // Attach mousedown, keyup, touchstart events to document only and catch
   // clicks on all elements.
   $(document.body).bind("mousedown keyup touchstart", function(event) {

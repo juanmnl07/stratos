@@ -205,4 +205,31 @@
   line-height: 20px;
 }
 
+.page-servicios-para-emprendedores .title#page-title{
+  padding-left: 170px;
+padding-right: 170px;
+}
+
+#block-views-comunidad-bloque-5 {
+	display: block;
+}
+
+#block-views-comunidad-bloque-6 {
+	display: none;
+}
+
+#block-views-comunidad-bloque-5 .jcarousel-skin-default .jcarousel-next-horizontal,
+#block-views-comunidad-bloque-5 .jcarousel-skin-default .jcarousel-prev-horizontal,
+#block-views-comunidad-bloque-6 .jcarousel-skin-default .jcarousel-next-horizontal,
+#block-views-comunidad-bloque-6 .jcarousel-skin-default .jcarousel-prev-horizontal {
+	top: 20px;
+}
+
+.node-type-socios .panel-2col .panel-col-first, .node-type-socios .panel-2col .panel-col-last {
+	float: left;
+}
+
+.node-type-socios .panel-2col .panel-col-first {width: 52%;}
+.node-type-socios .panel-2col .panel-col-last {width: 48%;}
+
 }

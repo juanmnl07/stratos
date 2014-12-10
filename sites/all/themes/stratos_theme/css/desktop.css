@@ -11,7 +11,8 @@
   .breadcrumb,
   #page-title,
   .footer .grid,
-  .profile, #user-login{
+  .profile, #user-login,
+  .node-type-socios .panel-display{
     max-width: 1000px;
   }
 
@@ -119,7 +120,7 @@
 }
 
 #flexslider-1.flexslider .banner-grande-caption .titulo p{
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   font-size: 27px;
   line-height: 28px;
 }
@@ -173,12 +174,19 @@
   margin-right: 20px;
   
 }
+
+.page-servicios-para-emprendedores .title#page-title{
+  padding-left: 188px;
+padding-right: 188px;
+}
+
 .title#page-title{
   padding-top: 40px;
   padding-bottom: 35px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
   font-size: 35px;
+  line-height: 40px;
 }
 .not-front .panel-flexible .panel-flexible-inside .encabezado .panels-flexible-row-inside-first p,
 .not-front .panel-display .pane-custom .pane-content,
@@ -329,9 +337,7 @@
   margin-right: 0px;
 }
 
-.breadcrumb {margin: 0 auto;}
-
-
+.breadcrumb, .node-type-socios .panel-display {margin: 0 auto;}
 
 .page-invertir-en-empresas-costa-rica .panel-flexible .panel-flexible-inside .panels-flexible-region-first .pane-content{
   padding-right: 50px;
@@ -358,6 +364,13 @@
 }
 
 
+#block-views-comunidad-bloque-5 .jcarousel-skin-default .jcarousel-next-horizontal,
+#block-views-comunidad-bloque-5 .jcarousel-skin-default .jcarousel-prev-horizontal,
+#block-views-comunidad-bloque-6 .jcarousel-skin-default .jcarousel-next-horizontal,
+#block-views-comunidad-bloque-6 .jcarousel-skin-default .jcarousel-prev-horizontal {
+  top: 30px;
+}
 
+.node-type-socios .pane-custom.pane-1 .pane-content{margin-left: 0px;}
 
 }

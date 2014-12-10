@@ -1,6 +1,8 @@
 jQuery.noConflict(); 
 jQuery(document).ready(function(){
 
+   jQuery("#caption-flexslider").fadeIn(3000);
+
 	//agregar menu slicknav (responsivo)
 	 jQuery('#block-system-main-menu .menu').slicknav({
             label: '',

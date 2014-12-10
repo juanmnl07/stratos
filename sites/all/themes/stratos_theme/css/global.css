@@ -82,7 +82,6 @@ a:active {
 
 /* Andrey 11-11-2014 */
 .header{
-	border-bottom: 1px solid #58595B;
 	height: 155px;
 }
 .header .utility-bar{
@@ -102,6 +101,11 @@ a:active {
 	float:left;
 	text-transform:uppercase;	
 }
+
+html[data-useragent*='MSIE 10.0'].header .utility-bar #cambio-idioma a {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .header .utility-bar #cambio-idioma span{
 	float:left;
 	line-height: 45px;
@@ -141,6 +145,11 @@ nav#block-system-main-menu ul.menu li.leaf a{
 	text-transform:uppercase;
 	padding: 2px 8px;
 }
+
+html[data-useragent*='MSIE 10.0']nav#block-system-main-menu ul.menu li.leaf a {
+	font-family: 'Open Sans', sans-serif;
+}
+
 nav#block-system-main-menu ul.menu li.last a{
 	padding-right: 0px;
 }
@@ -168,6 +177,10 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 	text-transform: uppercase;
 	font-style: normal;
 	line-height: 20px;
+}
+
+html[data-useragent*='MSIE 10.0'].title#page-title {
+	font-family: 'Open Sans', sans-serif;
 }
 
 .footer{
@@ -221,6 +234,10 @@ nav#block-system-main-menu ul.menu li.leaf a:hover{
 transition: all 400ms ease-out;        
 }
 
+html[data-useragent*='MSIE 10.0'].footer .grid .block-menu-block .content ul li a{
+	font-family: 'Open Sans', sans-serif;    
+}
+
 .footer .grid .block-menu-block .content ul li a:hover{
 color: #EA0028;
 }
@@ -250,6 +267,10 @@ color: #EA0028;
 	font-size: 27px;
 	line-height: 30px;	
 	margin-top: 0px;
+}
+
+html[data-useragent*='MSIE 10.0'] .main h2{
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* Andrey 11-11-2014 :: servicios-para-empresarios */
@@ -332,10 +353,9 @@ border-top: 1px solid #ddd;
 	font-family: "Raleway", sans-serif;
 	color: white;
 	font-size: 15px;
-	font-weight: 800;
+	font-weight: 600;
 	padding-right: 25px;
 	text-decoration: none;
-	text-transform: uppercase;
 	background-image: url('../images/bullet_link.png');	
 	background-position: right center;
 	background-repeat: no-repeat;	
@@ -638,12 +658,11 @@ ul.bullet_red{
 	float:left;
 	font-family: "Raleway", sans-serif;
 	font-size: 19px;
-	line-height: 15px;
+	line-height: 28px;
 	text-align:center;
 	font-weight:800;
 	text-transform:uppercase;
 	color: #FFFFFF;
-	background-image: url("../images/linea_titulo_rollover.png");
 	background-repeat: no-repeat;
 	background-position: center 30px;
 	padding: 8px 4px 0px 4px;
@@ -667,6 +686,7 @@ ul.bullet_red{
 	text-transform:none;
 	font-weight:400;	
 	color: #fff;
+	margin-top: 17px;
 }
 #block-views-91b64421d58dd8a04f68aa86a6b33fd4 div[class^=roll-over] a p{
 	margin-top: 30px;
@@ -769,7 +789,6 @@ ul.bullet_red{
 #block-block-6{
 	height: 118px;
 	background-color: #EA0028;
-	margin-top: 10px;
 }
 #block-block-4 #cintillo .consultar,
 #block-block-6 #cintillo .consultar{
@@ -814,7 +833,7 @@ ul.bullet_red{
 	background-image: url("../images/bg_recuadros.png");
 	background-repeat: no-repeat;
 	background-position: top right;
-	padding-bottom: 100px;
+	padding-bottom: 190px;
 }
 #block-block-5 #bloque-comunidad{
 	/*padding: 0px 50px;*/
@@ -1094,7 +1113,8 @@ background-position: 8px center;
 
 
 #caption-flexslider{
-	visibility: hidden;
+	/*visibility: hidden;*/
+	display: none;
 }
 
 .views-field-field-beneficios ul li .beneficios-contenido p{
@@ -1150,17 +1170,22 @@ background-position: 8px center;
 }
 
 #block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-title{
-	color: #00ACED;
-	text-transform:uppercase;
-	font-family: Raleway, sans-serif;
-	font-size: 20px;
-	font-weight:800;
 	background-image: url("../images/linea_titulo_socios.png");
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	padding-bottom: 10px;
         width:65%;
 }
+
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-title a{
+	font-family: Raleway, sans-serif;
+	color: #00ACED;
+	text-transform:uppercase;
+	font-family: Raleway, sans-serif;
+	font-size: 20px;
+	font-weight:800;
+}
+
 #block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-field-relacion{
 	font-family: Raleway, sans-serif;
 	font-size: 16px;	
@@ -1168,15 +1193,17 @@ background-position: 8px center;
 	color: #58595B;
 	text-transform:uppercase;
 }
-#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-body p{
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-body p,
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-body p span{
   font-family:'Open Sans', sans-serif;
   color: #808285;
   font-size: 13px;
-  line-height: 14px;	
+  line-height: 14px !important;	
 }
 #block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-nothing{
 }
-#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-nothing .redes-sociales a{
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-nothing .redes-sociales a,
+.node-type-socios .redes-sociales a{
 	margin-right: 5px;
         display: block;
         float: left;
@@ -1190,7 +1217,13 @@ background-position: 8px center;
 transition: all 400ms ease-out;	
 }
 
-#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-nothing .redes-sociales a:hover{
+.node-type-socios .redes-sociales {width: 100%;
+float: left;
+margin-bottom: 15px;
+margin-left: -5px;}
+
+#block-views-socios-block-socios-resumenes .bloques-socios .views-row .views-field-nothing .redes-sociales a:hover,
+.node-type-socios .redes-sociales a:hover{
    padding-top: 0px;
 }
 
@@ -1219,10 +1252,6 @@ transition: all 400ms ease-out;
 .placeholder
 {
   color: #aaa;
-}
-
-#caption-flexslider{
-	visibility: hidden;
 }
 
 #block-block-4 #cintillo a:hover,  #block-block-6 #cintillo a:hover {
@@ -1276,3 +1305,89 @@ transition: all 400ms ease-out;
 #block-system-main-menu {
 	display: none;
 }
+
+#block-views-comunidad-bloque-5,
+#block-views-comunidad-bloque-6 {
+	margin-top: -190px;
+	margin-bottom: 99px;
+}
+
+#block-views-comunidad-bloque-5 {
+	display: none;
+}
+
+#block-views-comunidad-bloque-6 {
+	display: block;
+}
+
+#block-views-comunidad-bloque-5 .jcarousel-skin-default .jcarousel-container-horizontal,
+#block-views-comunidad-bloque-6 .jcarousel-skin-default .jcarousel-container-horizontal {
+	width: 100% !important;
+	height: 90px !important;
+	padding: 0px 40px !important;
+}
+
+#block-views-comunidad-bloque-5 .jcarousel-skin-default .jcarousel-clip-horizontal,
+#block-views-comunidad-bloque-6 .jcarousel-skin-default .jcarousel-clip-horizontal {
+	width: 100% !important;
+}
+
+#block-views-comunidad-bloque-5 .jcarousel-skin-default .jcarousel-item ,
+#block-views-comunidad-bloque-6 .jcarousel-skin-default .jcarousel-item  {
+border: none;
+ background: transparent;
+}
+
+#block-views-comunidad-bloque-5 .jcarousel-skin-default .jcarousel-item .views-field,
+#block-views-comunidad-bloque-6 .jcarousel-skin-default .jcarousel-item .views-field {
+	border: none;
+	 -webkit-transition: all 400ms ease-out; 
+-moz-transition: all 400ms ease-out;
+-ms-transition: all 400ms ease-out;
+-o-transition: all 400ms ease-out;
+ transition: all 400ms ease-out; 
+ background: transparent;
+}
+
+#block-views-comunidad-bloque-5 .jcarousel-skin-default .jcarousel-item .views-field:hover,
+#block-views-comunidad-bloque-6 .jcarousel-skin-default .jcarousel-item .views-field:hover{
+	padding-top: 8px;
+}
+
+.page-stratos-ecosistema-empresarial #block-views-comunidad-bloque-6 {
+	margin-top: -1950px;
+margin-bottom: 1950px;
+}
+
+
+#block-views-comunidad-bloque-5 .jcarousel-skin-default .jcarousel-next-horizontal,
+#block-views-comunidad-bloque-5 .jcarousel-skin-default .jcarousel-prev-horizontal,
+#block-views-comunidad-bloque-6 .jcarousel-skin-default .jcarousel-next-horizontal,
+#block-views-comunidad-bloque-6 .jcarousel-skin-default .jcarousel-prev-horizontal {
+	top: 30px;
+} 
+
+ /* Node socios */
+ .node-type-socios .panel-display {
+ 	margin-top: 50px !important;
+ }
+ .node-type-socios h1#page-title, .node-type-socios .pane-title {
+ 	display: none;
+ }
+
+ .node-type-socios .panel-2col .panel-separator {
+ 	margin: 0;
+ }
+
+ .node-type-socios h2 {
+ 	margin-bottom: 0px;
+ }
+
+.node-type-socios .field-name-field-imagen-detalle {text-align: right;}
+.node-type-socios .panel-2col .panel-col-first, .node-type-socios .panel-2col .panel-col-last {
+	float: right;
+}
+.node-type-socios .panel-2col .panel-col-first, .node-type-socios .panel-2col .panel-col-last {width: 100%;}
+.node-type-socios .pane-custom.pane-1 .pane-content{padding-left: 0px !important; padding-right: 0px !important; margin-left: 10px;}
+.node-type-socios .pane-custom.pane-1 .pane-content p {text-align: left; margin-bottom: 40px;}
+.node-type-socios .pane-custom.pane-1 .pane-content p a {color: #00ACED; border-bottom: 3px solid #00ACED; padding-bottom: 5px; text-transform: uppercase;}

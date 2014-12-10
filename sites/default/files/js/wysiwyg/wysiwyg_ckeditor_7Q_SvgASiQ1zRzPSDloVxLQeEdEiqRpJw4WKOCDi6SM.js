@@ -1,0 +1,1 @@
+window.CKEDITOR_BASEPATH = '/stratos2/sites/all/libraries/ckeditor/';

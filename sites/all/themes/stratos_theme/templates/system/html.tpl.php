@@ -43,10 +43,10 @@
  * @ingroup themeable
  */
 ?><!DOCTYPE html>
-<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="es"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="es"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="es"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="es"> <!--<![endif]-->
 
 <head>
   <?php print $head; ?>
@@ -54,6 +54,14 @@
 
   <?php print $styles; ?>
   <?php print $scripts; ?>
+
+  <!--[if gte IE 9]>
+    <link rel="stylesheet" type="text/css" media="all" href="/sites/all/themes/stratos_theme/css/tipography.css"/>
+  <![endif]-->
+
+    <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" media="all" href="/sites/all/themes/stratos_theme/css/global-ie.css"/>
+  <![endif]-->
 
   <!-- HTML5 element support for IE6-8 -->
   <!--[if lt IE 9]>
